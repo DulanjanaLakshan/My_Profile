@@ -49,4 +49,5 @@ header > h2 {
 #my_img {
     position: absolute;
     bottom: 0;
+    margin: auto;
 }
