@@ -1,0 +1,39 @@
+.main_{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Image/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+header>ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+}
+header>ul>li{
+    color: white;
+    display: initial;
+    padding: 60px 20px 0 20px;
+}
+header>ul>li:hover{
+    cursor: pointer;
+    color: red;
+}
+header>h2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    color: white;
+    display: initial;
+    padding: 0 0 0 20px;
+}
+
