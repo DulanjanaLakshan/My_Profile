@@ -1,11 +1,17 @@
-.main_{
+* {
+    margin: 0;
+
+}
+
+.main_ {
     width: 100%;
-    height: 100vh;
+    height: 99.5vh;
     background-image: url("../Image/background.jpg");
     background-size: cover;
     background-position: center;
 }
-header>ul{
+
+header > ul {
     position: absolute;
     right: 0;
     top: 0;
@@ -15,16 +21,19 @@ header>ul{
     font-family: 'Dancing Script', cursive;
     font-family: 'Lobster', cursive;
 }
-header>ul>li{
+
+header > ul > li {
     color: white;
     display: initial;
     padding: 60px 20px 0 20px;
 }
-header>ul>li:hover{
+
+header > ul > li:hover {
     cursor: pointer;
     color: red;
 }
-header>h2{
+
+header > h2 {
     position: absolute;
     left: 0;
     top: 0;
@@ -37,3 +46,7 @@ header>h2{
     padding: 0 0 0 20px;
 }
 
+#my_img {
+    position: absolute;
+    bottom: 0;
+}
