@@ -1,53 +1,48 @@
-* {
-    margin: 0;
-
-}
-
-.main_ {
-    width: 100%;
-    height: 99.5vh;
-    background-image: url("../Image/background.jpg");
+header {
+    position: relative;
+    border: 1px solid;
+    background-image: url(../Image/background.jpg);
     background-size: cover;
-    background-position: center;
 }
 
-header > ul {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 40px;
-    list-style: none;
-    font-size: 20px;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Lobster', cursive;
-}
-
-header > ul > li {
+header>h2 {
     color: white;
-    display: initial;
-    padding: 60px 20px 0 20px;
-}
-
-header > ul > li:hover {
-    cursor: pointer;
-    color: red;
-}
-
-header > h2 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 20px;
     font-size: 25px;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Lobster', cursive;
-    color: white;
-    display: initial;
-    padding: 0 0 0 20px;
 }
 
-#my_img {
+header>ul {
     position: absolute;
-    bottom: 0;
-    margin: auto;
+    list-style: none;
+    top: 5px;
+    right: 0;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Francois One', sans-serif;
+}
+
+header>ul>li {
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+header>ul>li>a:hover {
+    color: orange;
+}
+
+#main_section {
+    position: relative;
+    height: 900px;
+    background-image: url(../Image/background.jpg);
+    background-size: cover;
+}
+
+body>main>section>div {
+    position: absolute;
+    height: 100%;
+    border: 1px solid blue;
 }
