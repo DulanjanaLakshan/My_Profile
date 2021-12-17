@@ -1,28 +1,37 @@
+/* header start */
+
 header {
     position: relative;
-    border: 1px solid;
-    background-image: url(../Image/background.jpg);
+    height: 50px;
+    background-image: url("/assets/Image/background.jpg");
     background-size: cover;
-}
-
-header>h2 {
-    color: white;
-    font-size: 25px;
 }
 
 header>ul {
     position: absolute;
+    right: 30px;
+    bottom: 0;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
     list-style: none;
-    top: 5px;
-    right: 0;
-    height: 40px;
-    font-size: 18px;
-    font-family: 'Francois One', sans-serif;
+    color: #4a3a3a;
 }
 
 header>ul>li {
-    display: inline;
     padding: 0 10px 0 10px;
+    display: inline-block;
+}
+
+header>ul>li:hover {
+    cursor: pointer;
+    color: red;
+}
+
+header>h2 {
+    margin: 0;
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 header>ul>li>a {
@@ -31,18 +40,27 @@ header>ul>li>a {
 }
 
 header>ul>li>a:hover {
-    color: orange;
+    color: red;
 }
 
+
+/* header end */
+
+
+/* main background image edit start */
+
 #main_section {
+    height: 1000px;
     position: relative;
-    height: 900px;
+}
+
+#main_Div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
     background-image: url(../Image/background.jpg);
     background-size: cover;
 }
 
-body>main>section>div {
-    position: absolute;
-    height: 100%;
-    border: 1px solid blue;
-}
+
+/* main background image edit end */
