@@ -75,7 +75,25 @@ header>ul>li>a:hover {
 
 #background_text {
     position: absolute;
+    right: 150px;
+    top: 45%;
+    margin: auto;
+}
+
+body>main>section>section>h1 {
+    font-size: 60px;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 0;
+    font-family: 'Lemonada', cursive;
+}
+
+body>main>section>section>h4 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px;
+    margin-top: 0;
+    font-family: 'Niconne', cursive;
 }
 
 
