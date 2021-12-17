@@ -64,3 +64,19 @@ header>ul>li>a:hover {
 
 
 /* main background image edit end */
+
+
+/* main background my image and details start */
+
+#main_img {
+    position: absolute;
+    bottom: 0;
+}
+
+#background_text {
+    position: absolute;
+    color: white;
+}
+
+
+/* main background my image and details end */
