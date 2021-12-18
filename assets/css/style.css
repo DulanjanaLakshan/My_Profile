@@ -98,3 +98,37 @@ body>main>section>section>h4 {
 
 
 /* main background my image and details end */
+
+
+/* Edit About Me start */
+
+#About_section {
+    height: 900px;
+    position: relative;
+    display: flex;
+}
+
+.about {
+    height: 100%;
+    width: 50%;
+}
+
+#About_img {
+    position: absolute;
+    width: 500px;
+    bottom: 0;
+    right: 200px;
+    top: 0;
+    margin: auto;
+}
+
+#About_h1 {
+    position: absolute;
+    font-size: 60px;
+    top: 0;
+    left: 800px;
+    margin: auto;
+}
+
+
+/* Efit About Me End */
