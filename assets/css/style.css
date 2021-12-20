@@ -1,15 +1,16 @@
-<<<<<<< HEAD
-body{
+
+body {
     background-color: #191517;
 }
-p{
+
+p {
     color: white;
 }
-h1{
+
+h1 {
     color: white;
 }
-=======
->>>>>>> b2ee1539fe2a058cfa446d159854f001a1bbcf42
+
 /* header start */
 
 header {
@@ -19,7 +20,7 @@ header {
     background-size: cover;
 }
 
-header>ul {
+header > ul {
     position: absolute;
     right: 30px;
     bottom: 0;
@@ -29,29 +30,29 @@ header>ul {
     color: #4a3a3a;
 }
 
-header>ul>li {
+header > ul > li {
     padding: 0 10px 0 10px;
     display: inline-block;
 }
 
-header>ul>li:hover {
+header > ul > li:hover {
     cursor: pointer;
     color: red;
 }
 
-header>h2 {
+header > h2 {
     margin: 0;
     color: white;
     padding-top: 15px;
     padding-left: 15px;
 }
 
-header>ul>li>a {
+header > ul > li > a {
     text-decoration: none;
     color: white;
 }
 
-header>ul>li>a:hover {
+header > ul > li > a:hover {
     color: red;
 }
 
@@ -70,11 +71,7 @@ header>ul>li>a:hover {
     position: absolute;
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
     background-image: url(../Image/background.jpg);
-=======
-    background-image: url(../Image/background.png);
->>>>>>> b2ee1539fe2a058cfa446d159854f001a1bbcf42
     background-size: cover;
 }
 
@@ -96,7 +93,7 @@ header>ul>li>a:hover {
     margin: auto;
 }
 
-body>main>section>section>h1 {
+body > main > section > section > h1 {
     font-size: 60px;
     color: white;
     text-shadow: 2px 8px 6px #000000;
@@ -104,7 +101,7 @@ body>main>section>section>h1 {
     font-family: 'Lemonada', cursive;
 }
 
-body>main>section>section>h4 {
+body > main > section > section > h4 {
     color: white;
     text-shadow: 2px 5px 2px #000000;
     font-size: 35px;
@@ -117,18 +114,20 @@ body>main>section>section>h4 {
 
 
 /* Edit About Me start */
-.about{
+.about {
     position: relative;
     height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.about_div{
+
+.about_div {
     height: 700px;
     width: 700px;
 }
-main>section>section>div>div{
+
+main > section > section > div > div {
     position: absolute;
     height: 551px;
     width: 569px;
@@ -137,24 +136,29 @@ main>section>section>div>div{
     left: 312px;
     margin: auto;
 }
-#p{
+
+#p {
     list-style: none;
     font-size: 15px;
     font-weight: bold;
     padding-top: 20px;
 }
-.para{
+
+.para {
     padding-left: 10px;
 }
-#about_h1{
+
+#about_h1 {
     position: absolute;
     top: 72px;
     left: 500px;
     margin: auto;
     font-size: 40px;
 }
-#About_img{
+
+#About_img {
     margin-left: 109px;
     width: 467px;
 }
+
 /* Efit About Me End */
