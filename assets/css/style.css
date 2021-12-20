@@ -94,11 +94,12 @@ header > ul > li > a:hover {
 }
 
 body > main > section > section > h1 {
-    font-size: 60px;
+    font-size: 75px;
+    margin-top: 0;
     color: white;
     text-shadow: 2px 8px 6px #000000;
     margin-bottom: 0;
-    font-family: 'Lemonada', cursive;
+    font-family: 'Bungee Shade', cursive;
 }
 
 body > main > section > section > h4 {
@@ -106,7 +107,7 @@ body > main > section > section > h4 {
     text-shadow: 2px 5px 2px #000000;
     font-size: 35px;
     margin-top: 0;
-    font-family: 'Niconne', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 
