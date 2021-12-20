@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: #191517;
 }
@@ -7,6 +8,8 @@ p{
 h1{
     color: white;
 }
+=======
+>>>>>>> b2ee1539fe2a058cfa446d159854f001a1bbcf42
 /* header start */
 
 header {
@@ -67,7 +70,11 @@ header>ul>li>a:hover {
     position: absolute;
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
     background-image: url(../Image/background.jpg);
+=======
+    background-image: url(../Image/background.png);
+>>>>>>> b2ee1539fe2a058cfa446d159854f001a1bbcf42
     background-size: cover;
 }
 
