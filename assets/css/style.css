@@ -101,44 +101,5 @@ body>main>section>section>h4 {
 
 
 /* Edit About Me start */
-.about{
-    position: relative;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.about_div{
-    height: 700px;
-    width: 700px;
-}
-main>section>section>div>div{
-    position: absolute;
-    height: 551px;
-    width: 569px;
-    top: 55px;
-    bottom: 0;
-    left: 312px;
-    margin: auto;
-}
-#p{
-    list-style: none;
-    font-size: 15px;
-    font-weight: bold;
-    padding-top: 20px;
-}
-.para{
-    padding-left: 10px;
-}
-#about_h1{
-    position: absolute;
-    top: 72px;
-    left: 500px;
-    margin: auto;
-    font-size: 40px;
-}
-#About_img{
-    margin-left: 109px;
-    width: 467px;
-}
+
 /* Efit About Me End */
