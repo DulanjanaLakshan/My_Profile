@@ -279,15 +279,18 @@ main > section > section > div > div {
     width: 210px;
     height: 300px;
 }
-#js{
+
+#js {
     width: 210px;
     height: 300px;
 }
-#adobe{
+
+#adobe {
     width: 211px;
     height: 300px;
 }
-#skill_h2{
+
+#skill_h2 {
     position: absolute;
     top: 0;
     text-align: center;
@@ -295,46 +298,61 @@ main > section > section > div > div {
     font-size: 78px;
     font-family: 'Bebas Neue', cursive;
 }
+
 /*Edit SKILLS & TOOLS Section End*/
 /*Edit GALLERY Section Start*/
-#gallery_section{
+#gallery_section {
     width: 99%;
     height: 800px;
     display: grid;
     margin-left: 8px;
-    grid-template-rows: repeat(3,1fr);
-    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px 10px;;
 }
-#gallery_h2{
+
+#gallery_h2 {
     position: relative;
     top: 0;
     text-align: center;
-    left:0;
+    left: 0;
     font-size: 78px;
     font-family: 'Bebas Neue', cursive;
 }
-.gallery_div{
+
+.gallery_div {
     height: 350px;
 }
-.gallery_img{
+
+.gallery_img {
     width: 584px;
     height: 350px;
     margin-left: 5px;
 }
+
 /*Edit GALLERY Section End*/
 /*Start Project Section Start*/
-#project_section{
+#project_section {
     position: relative;
-    height: 500px;
+    height: 800px;
     display: flex;
     align-items: center;
 }
-.project_div{
+
+.project_div {
     height: 350px;
     width: 630px;
 }
-.pro_img{
+
+.pro_img {
     width: 620px;
+}
+#project_h2{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 850px;
+    font-size: 78px;
+    font-family: 'Bebas Neue', cursive;
 }
 /*Start Project Section End*/
