@@ -11,6 +11,10 @@ h1 {
     color: white;
 }
 
+h2 {
+    color: white;
+}
+
 /* header start */
 
 header {
@@ -164,8 +168,76 @@ main > section > section > div > div {
     margin-left: 180px;
     width: 605px;
 }
-#p_name{
+
+#p_name {
     font-size: 46px;
 }
 
-/* Efit About Me End */
+/* Edit About Me section End */
+/*Edit EDUCATION section Start*/
+#edu_section {
+    position: relative;
+    height: 700px;
+    display: flex;
+}
+
+.edu_div {
+    height: 300px;
+    width: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+#edu_h2{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 850px;
+    font-size: 78px;
+    font-family: 'Bebas Neue', cursive;
+}
+#color_1 {
+    background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+#color_2 {
+    background-image: linear-gradient(to left top, #83cff0, #7dc9f7, #7fc1fd, #89b8ff, #99aeff, #90b2ff, #87b6ff, #80baff, #60cbff, #40dbff, #33e9ff, #4bf6f6);
+}
+
+#color_3 {
+    background-image: linear-gradient(to left top, #ff81c3, #ea8fde, #ce9df1, #b0aafc, #92b5ff, #97bdff, #9ec5ff, #a6cdff, #c4d8ff, #dde3ff, #f0f1ff, #ffffff);
+}
+
+#color_4 {
+    background-image: linear-gradient(to left top, #a0f083, #68f0ae, #2fedd5, #29e5f2, #5fdbff, #6dd9ff, #7ad8ff, #86d6ff, #73dfff, #61e7ff, #51effe, #4bf6f6);
+}
+.para_edu{
+    color: black;
+    font-size: 27px;
+    text-align: center;
+    /* top: 0; */
+    /* bottom: 0; */
+    margin-top: 176px;
+    text-shadow: 1px 1px 3px white;
+    font-weight: bold;
+    font-family: fantasy;
+}
+#whc{
+    width: 163px;
+    position: absolute;
+    margin-left: 66px;
+}
+#tcc{
+    width: 224px;
+    position: absolute;
+    margin-left: 38px;
+    margin-top: 6px;
+}
+#ijse{
+    width: 276px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 70px;
+}
+/*Edit EDUCATION section End*/
