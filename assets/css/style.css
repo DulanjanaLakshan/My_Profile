@@ -173,8 +173,8 @@ main > section > section > div > div {
     font-size: 46px;
 }
 
-/* Edit About Me section End */
-/*Edit EDUCATION section Start*/
+/* Edit About Me Section End */
+/*Edit EDUCATION Section Start*/
 #edu_section {
     position: relative;
     height: 700px;
@@ -189,14 +189,16 @@ main > section > section > div > div {
     left: 0;
     margin: auto;
 }
-#edu_h2{
+
+#edu_h2 {
     position: absolute;
     top: 0;
     text-align: center;
-    left: 850px;
+    left: 828px;
     font-size: 78px;
     font-family: 'Bebas Neue', cursive;
 }
+
 #color_1 {
     background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
@@ -212,7 +214,8 @@ main > section > section > div > div {
 #color_4 {
     background-image: linear-gradient(to left top, #a0f083, #68f0ae, #2fedd5, #29e5f2, #5fdbff, #6dd9ff, #7ad8ff, #86d6ff, #73dfff, #61e7ff, #51effe, #4bf6f6);
 }
-.para_edu{
+
+.para_edu {
     color: black;
     font-size: 27px;
     text-align: center;
@@ -221,21 +224,75 @@ main > section > section > div > div {
     font-weight: bold;
     font-family: fantasy;
 }
-#whc{
+
+#whc {
     width: 163px;
     position: absolute;
     margin-left: 66px;
 }
-#tcc{
+
+#tcc {
     width: 224px;
     position: absolute;
     margin-left: 38px;
     margin-top: 6px;
 }
-#ijse{
+
+#ijse {
     width: 276px;
     position: absolute;
     margin-left: 15px;
     margin-top: 70px;
 }
-/*Edit EDUCATION section End*/
+
+/*Edit EDUCATION Section End*/
+/*Edit SKILLS & TOOLS Section Start*/
+#skill {
+    position: relative;
+    height: 760px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skill_div {
+    height: 300px;
+    width: 210px;
+}
+
+#java {
+    width: 210px;
+    height: 300px;
+}
+
+#mysql {
+    width: 210px;
+    height: 300px;
+}
+
+#html {
+    width: 210px;
+    height: 300px;
+}
+
+#css {
+    width: 210px;
+    height: 300px;
+}
+#js{
+    width: 210px;
+    height: 300px;
+}
+#adobe{
+    width: 211px;
+    height: 300px;
+}
+#skill_h2{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 764px;
+    font-size: 78px;
+    font-family: 'Bebas Neue', cursive;
+}
+/*Edit SKILLS & TOOLS Section End*/
