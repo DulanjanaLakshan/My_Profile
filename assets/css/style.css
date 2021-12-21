@@ -323,3 +323,18 @@ main > section > section > div > div {
     margin-left: 5px;
 }
 /*Edit GALLERY Section End*/
+/*Start Project Section Start*/
+#project_section{
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.project_div{
+    height: 350px;
+    width: 630px;
+}
+.pro_img{
+    width: 620px;
+}
+/*Start Project Section End*/
