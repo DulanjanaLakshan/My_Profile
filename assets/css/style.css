@@ -194,7 +194,7 @@ main > section > section > div > div {
     position: absolute;
     top: 0;
     text-align: center;
-    left: 828px;
+    left: 850px;
     font-size: 78px;
     font-family: 'Bebas Neue', cursive;
 }
@@ -249,7 +249,7 @@ main > section > section > div > div {
 /*Edit SKILLS & TOOLS Section Start*/
 #skill {
     position: relative;
-    height: 760px;
+    height: 648px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -291,8 +291,35 @@ main > section > section > div > div {
     position: absolute;
     top: 0;
     text-align: center;
-    left: 764px;
+    left: 850px;
     font-size: 78px;
     font-family: 'Bebas Neue', cursive;
 }
 /*Edit SKILLS & TOOLS Section End*/
+/*Edit GALLERY Section Start*/
+#gallery_section{
+    width: 99%;
+    height: 800px;
+    display: grid;
+    margin-left: 8px;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px 10px;;
+}
+#gallery_h2{
+    position: relative;
+    top: 0;
+    text-align: center;
+    left:0;
+    font-size: 78px;
+    font-family: 'Bebas Neue', cursive;
+}
+.gallery_div{
+    height: 350px;
+}
+.gallery_img{
+    width: 584px;
+    height: 350px;
+    margin-left: 5px;
+}
+/*Edit GALLERY Section End*/
