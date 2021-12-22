@@ -19,6 +19,9 @@
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
     <title>Dulanjana Lakshan</title>
 </head>
 
@@ -148,43 +151,53 @@
         </div>
     </section>
     <section>
-        <!-- <br>
-        <h2>CONTACT US</h2>
-        <section>
-            <form action="">
+        <h2 id="con_h2">Connect Us</h2>
+    </section>
+    <section id="con">
 
-                <label for="txtName">Full Name</label>
-                <input id="txtName" placeholder="Enter Your Full Name" type="text"><br><br>
+        <div class="con_div">
 
+            <form id="form">
+                <h2 class="con_h2">First Name</h2>
+                <br>
+                <input id="fname" name="firstname" placeholder="Your name.." type="text">
 
-                <label for="txtEmail">Email</label>
-                <input id="txtEmail" placeholder="Enter Your Email" type="text"><br><br>
+                <h2 class="con_h2">Last Name</h2>
+                <input id="lname" name="lastname" placeholder="Your last name.." type="text">
 
-                <label for="txtMessage">Message</label>
-                <input id="txtMessage" placeholder="Enter Your Message" type="text"><br><br>
-                <button>Send</button>
-                <br><br>
+                <h2 class="con_h2">Message</h2>
+                <input id="Message" name="Message" placeholder="Your Message.." type="text">
 
+                <input type="submit" value="Submit">
             </form>
-        </section>
-        <section>
-            <img alt="Not Image Working" src="assets/Image/map.png">
-        </section> -->
+
+        </div>
+        <div class="con_div">
+            <img alt="Not Image Working" id="map" src="assets/Image/map.png">
+        </div>
     </section>
 </main>
 <footer>
-    <section>
-        <img alt="Not Image Working" src="assets/Icon/Mail-icon.png" width="65px">
-        <h3>dulanjana20013030@gmail.com</h3>
-        <img alt="Not Image Working" src="assets/Icon/facebook.png" width="100px">
-        <h3>facebook.com/dulanjana001</h3>
-        <img alt="Not Image Working" src="assets/Icon/whatssapp.jpg" width="100px">
-        <h3>+94 76-2189497</h3>
-        <img alt="Not Image Working" src="assets/Icon/github.png" width="110px">
-        <h3>github.com/DulanjanaLakshan</h3>
+    <section id="footer_img">
+        <div class="footer_div">
+            <img alt="Not Image Working" src="assets/Icon/Mail-icon.png" width="65px">
+            <h3 class="f_h3">dulanjana20013030@gmail.com</h3>
+        </div>
+        <div class="footer_div">
+            <img alt="Not Image Working" src="assets/Icon/facebook.png" width="115px">
+            <h3 class="f_h3">facebook.com/dulanjana001</h3>
+        </div>
+        <div class="footer_div">
+            <img alt="Not Image Working" src="assets/Icon/whatssapp.jpg" width="110px">
+            <h3 class="f_h3">+94 76-2189497</h3>
+        </div>
+        <div class="footer_div">
+            <img alt="Not Image Working" src="assets/Icon/github.png" width="120px">
+            <h3 class="f_h3">github.com/DulanjanaLakshan</h3>
+        </div>
     </section>
     <section>
-        <h3>Designed and Developed By Dulanjana Lakshan</h3>
+        <h3 id="footer_h3">Designed and Developed By Dulanjana Lakshan</h3>
     </section>
 </footer>
 </body>
