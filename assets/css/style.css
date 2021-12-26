@@ -1,463 +1,71 @@
 body {
-    background-color: #191517;
-}
-
-p {
-    color: white;
-}
-
-h1 {
-    color: white;
-}
-
-h2 {
-    color: white;
-}
-
-/* header start */
-
-header {
-    position: relative;
-    height: 50px;
-    background-color: #191517;
-    background-size: cover;
-}
-
-header > ul {
-    position: absolute;
-    right: 30px;
-    bottom: 0;
-    font-size: 15px;
-    font-family: 'Lobster', cursive;
-    list-style: none;
-    color: #4a3a3a;
-}
-
-header > ul > li {
-    padding: 0 10px 0 10px;
-    display: inline-block;
-}
-
-header > ul > li:hover {
-    cursor: pointer;
-    color: red;
-}
-
-header > h2 {
-    margin: 0;
-    color: white;
-    padding-top: 15px;
-    padding-left: 15px;
-}
-
-header > ul > li > a {
-    text-decoration: none;
-    color: white;
-}
-
-header > ul > li > a:hover {
-    color: red;
-}
-
-
-/* header end */
-
-
-/* main background image edit start */
-
-#main_section {
-    height: 1000px;
-    position: relative;
-}
-
-#main_Div {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-image: url(../Image/background.jpg);
-    background-size: cover;
-}
-
-
-/* main background image edit end */
-
-
-/* main background my image and details start */
-
-#main_img {
-    position: absolute;
-    bottom: 0;
-}
-
-#background_text {
-    position: absolute;
-    right: 150px;
-    top: 45%;
-    margin: auto;
-}
-
-body > main > section > section > h1 {
-    font-size: 75px;
-    margin-top: 0;
-    color: white;
-    text-shadow: 2px 8px 6px #000000;
-    margin-bottom: 0;
-    font-family: 'Bungee Shade', cursive;
-}
-
-body > main > section > section > h4 {
-    color: white;
-    text-shadow: 2px 5px 2px #000000;
-    font-size: 35px;
-    margin-top: 0;
-    font-family: 'Playfair Display', serif;
-}
-
-
-/* main background my image and details end */
-
-
-/* Edit About Me start */
-.about {
-    position: relative;
-    height: 945px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.about_div {
-    height: 908px;
-    width: 740px;
-}
-
-main > section > section > div > div {
-    position: absolute;
-    height: 724px;
-    width: 681px;
-    top: 55px;
-    bottom: 0;
-    left: 248px;
-    margin: auto;
-}
-
-#p {
-    list-style: none;
-    font-size: 29px;
-    font-weight: bold;
-    padding-top: 20px;
-    font-family: math;
-}
-
-.para {
-    padding-left: 36px;
-    font-size: 20px;
-}
-
-#about_h1 {
-    position: absolute;
-    top: 36px;
-    left: 500px;
-    margin: auto;
-    font-size: 78px;
-    font-family: 'Bebas Neue', cursive;
-}
-
-#About_img {
-    margin-left: 180px;
-    width: 605px;
-}
-
-#p_name {
-    font-size: 46px;
-}
-
-/* Edit About Me Section End */
-/*Edit EDUCATION Section Start*/
-#edu_section {
-    position: relative;
-    height: 700px;
-    display: flex;
-}
-
-.edu_div {
-    height: 300px;
-    width: 300px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-}
-
-#edu_h2 {
-    position: absolute;
-    top: 0;
-    text-align: center;
-    left: 850px;
-    font-size: 78px;
-    font-family: 'Bebas Neue', cursive;
-}
-
-#color_1 {
-    background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-}
-
-#color_2 {
-    background-image: linear-gradient(to left top, #83cff0, #7dc9f7, #7fc1fd, #89b8ff, #99aeff, #90b2ff, #87b6ff, #80baff, #60cbff, #40dbff, #33e9ff, #4bf6f6);
-}
-
-#color_3 {
-    background-image: linear-gradient(to left top, #ff81c3, #ea8fde, #ce9df1, #b0aafc, #92b5ff, #97bdff, #9ec5ff, #a6cdff, #c4d8ff, #dde3ff, #f0f1ff, #ffffff);
-}
-
-#color_4 {
-    background-image: linear-gradient(to left top, #a0f083, #68f0ae, #2fedd5, #29e5f2, #5fdbff, #6dd9ff, #7ad8ff, #86d6ff, #73dfff, #61e7ff, #51effe, #4bf6f6);
-}
-
-.para_edu {
-    color: black;
-    font-size: 27px;
-    text-align: center;
-    margin-top: 176px;
-    text-shadow: 1px 1px 3px white;
-    font-weight: bold;
-    font-family: fantasy;
-}
-
-#whc {
-    width: 163px;
-    position: absolute;
-    margin-left: 66px;
-}
-
-#tcc {
-    width: 224px;
-    position: absolute;
-    margin-left: 38px;
-    margin-top: 6px;
-}
-
-#ijse {
-    width: 276px;
-    position: absolute;
-    margin-left: 15px;
-    margin-top: 70px;
-}
-
-/*Edit EDUCATION Section End*/
-/*Edit SKILLS & TOOLS Section Start*/
-#skill {
-    position: relative;
-    height: 648px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.skill_div {
-    height: 300px;
-    width: 210px;
-}
-
-#java {
-    width: 210px;
-    height: 300px;
-}
-
-#mysql {
-    width: 210px;
-    height: 300px;
-}
-
-#html {
-    width: 210px;
-    height: 300px;
-}
-
-#css {
-    width: 210px;
-    height: 300px;
-}
-
-#js {
-    width: 210px;
-    height: 300px;
-}
-
-#adobe {
-    width: 211px;
-    height: 300px;
-}
-
-#skill_h2 {
-    position: absolute;
-    top: 0;
-    text-align: center;
-    left: 850px;
-    font-size: 78px;
-    font-family: 'Bebas Neue', cursive;
-}
-
-/*Edit SKILLS & TOOLS Section End*/
-/*Edit GALLERY Section Start*/
-#gallery_section {
-    width: 99%;
-    height: 800px;
-    display: grid;
-    margin-left: 8px;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px 10px;;
-}
-
-#gallery_h2 {
-    position: relative;
-    top: 0;
-    text-align: center;
-    left: 0;
-    font-size: 78px;
-    font-family: 'Bebas Neue', cursive;
-}
-
-.gallery_div {
-    height: 350px;
-}
-
-.gallery_img {
-    width: 584px;
-    height: 350px;
-    margin-left: 5px;
-}
-
-/*Edit GALLERY Section End*/
-/*Start Project Section*/
-#project_section {
-    position: relative;
-    height: 800px;
-    display: flex;
-    align-items: center;
-}
-
-.project_div {
-    height: 350px;
-    width: 630px;
-}
-
-.pro_img {
-    width: 620px;
-}
-
-#project_h2 {
-    position: absolute;
-    top: 0;
-    text-align: center;
-    left: 850px;
-    font-size: 78px;
-    font-family: 'Bebas Neue', cursive;
-}
-
-/*End Project Section*/
-/*Start CONTACT US Section*/
-#con {
-    position: relative;
-    height: 500px;
-    display: flex;
-    align-items: center;
-}
-
-.con_div {
-    width: 50%;
-    height: 100%;
-    bottom: 0;
-}
-
-#form {
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 29px;
-}
-
-input[type=text], select {
-    width: 68%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin: auto;
-}
-
-input[type=submit] {
-    width: 20%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 430px;
-    margin-top: 35px;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-label {
-    color: white;
-}
-
-.con_h2 {
-    margin-bottom: 0;
-}
-
-#con_h2 {
-    position: relative;
-    top: 0;
-    text-align: center;
-    left: 0;
-    font-size: 78px;
-    font-family: 'Bebas Neue', cursive;
-}
-
-/*End CONTACT US Section*/
-/*Start Add CSS For Footer*/
-footer > section {
-    position: relative;
     background-color: black;
 }
 
-#footer_img {
-    height: 73px;
-    display: flex;
-    align-items: center;
-}
-
-#footer_h3 {
-    color: white;
-    padding-top: 22px;
-    padding-bottom: 16px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    padding-left: 755px;
-    font-weight: bold;
-    font-family: 'Vujahday Script', cursive;
-}
-
-.footer_div {
+header>nav {
     position: relative;
-    flex-grow: 1;
+    background-color: black;
+    height: 60px;
+    background-size: cover;
 }
 
-.f_h3 {
+header>nav>ul {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    list-style: none;
+}
+
+header>nav>ul>li {
+    padding: 0 20px 0 10px;
+    display: inline-block;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
     color: white;
-    display: contents;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    transition: all 1s;
 }
 
-/*End Add CSS For Footer*/
+header>nav>ul>li>a:hover {
+    color: red;
+    transition: all 1s;
+    font-size: 30px;
+}
+
+#main_section {
+    position: relative;
+    height: 919px;
+    background-image: url("../image/my_background.png");
+    background-size: cover;
+}
+
+#main_name {
+    position: absolute;
+    color: white;
+    top: 341px;
+    left: 72px;
+    font-size: 109px;
+}
+
+.name::first-letter {
+    color: red;
+    font-size: 150px;
+}
+
+#main_name2 {
+    position: absolute;
+    color: white;
+    top: 341px;
+    left: 650px;
+    font-size: 109px;
+}
+
+#name_h3 {
+    position: absolute;
+    color: white;
+    top: 550px;
+    left: 445px;
+    font-size: 35px;
+}
