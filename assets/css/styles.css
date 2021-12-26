@@ -66,6 +66,27 @@ header>nav>ul>li>a:hover {
     position: absolute;
     color: white;
     top: 550px;
-    left: 445px;
+    left: 390px;
     font-size: 35px;
+}
+
+#sochal_id {
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 70px;
+    bottom: 200px;
+    left: 340px;
+}
+
+.socal_class {
+    width: 70px;
+    padding-right: 25px;
+    padding-top: 0px;
+}
+
+#ser_section {
+    position: relative;
+    height: 900px;
+    border: 1px solid white;
 }
