@@ -88,5 +88,73 @@ header>nav>ul>li>a:hover {
 #ser_section {
     position: relative;
     height: 900px;
-    border: 1px solid white;
+}
+
+#ser_h1 {
+    position: absolute;
+    color: white;
+    left: 790px;
+    font-size: 70px;
+}
+
+#SERDiv_section {
+    position: absolute;
+    height: 700px;
+    width: 85%;
+    top: 110px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 20px;
+}
+
+.ser_div {
+    border-radius: 80px;
+    background-image: linear-gradient(to left top, #000000, #101010, #1b1b1b, #252525, #2f2f2f, #2f2f2f, #2f2f2f, #2f2f2f, #252525, #1b1b1b, #101010, #000000);
+}
+
+.iphone {
+    width: 100px;
+    height: 100px;
+    padding-left: 210px;
+    padding-top: 60px;
+}
+
+.ser_h1 {
+    color: white;
+    margin: 0;
+}
+
+#mobile {
+    padding-left: 120px;
+    padding-top: 40px;
+}
+
+#freelanc {
+    padding-left: 180px;
+    padding-top: 40px;
+}
+
+#web {
+    padding-left: 137px;
+    padding-top: 40px;
+}
+
+#graphic {
+    padding-left: 145px;
+    padding-top: 40px;
+}
+
+#desktop {
+    padding-left: 128px;
+    padding-top: 40px;
+}
+
+#sql {
+    padding-left: 120px;
+    padding-top: 40px;
 }
