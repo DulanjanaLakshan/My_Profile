@@ -95,6 +95,7 @@ header>nav>ul>li>a:hover {
     color: white;
     left: 790px;
     font-size: 70px;
+    font-family: 'Righteous', cursive;
 }
 
 #SERDiv_section {
@@ -157,4 +158,67 @@ header>nav>ul>li>a:hover {
 #sql {
     padding-left: 120px;
     padding-top: 40px;
+}
+
+#gallery_section {
+    position: relative;
+    height: 520px;
+}
+
+#gallery_h1 {
+    position: absolute;
+    color: white;
+    margin: 0;
+    left: 831px;
+    font-size: 70px;
+    font-family: 'Righteous', cursive;
+}
+
+#gallery_div_section {
+    position: absolute;
+    height: 385px;
+    width: 90%;
+    top: 115px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery_div {
+    width: 520px;
+    border-radius: 60px;
+    background-image: linear-gradient(to left top, #000000, #101010, #1b1b1b, #252525, #2f2f2f, #2f2f2f, #2f2f2f, #2f2f2f, #252525, #1b1b1b, #101010, #000000);
+}
+
+.image_div {
+    width: 480px;
+    height: 340px;
+    top: 27px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: relative;
+    border-radius: 50px;
+}
+
+#img1 {
+    background-image: url(/assets/image/Sc.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img2 {
+    background-image: url(/assets/image/Scr.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img3 {
+    background-image: url(/assets/image/Scree.png);
+    background-size: cover;
+    background-position: center;
 }
