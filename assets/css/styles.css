@@ -171,34 +171,40 @@ header > nav > ul > li > a:hover {
     }
 
     #main_name {
-        top: 112px;
+        top: 85px;
         left: 20px;
-        font-size: 33px;
+        font-size: 20px;
     }
 
     #main_name2 {
-        top: 112px;
-        left: 200px;
-        font-size: 33px;
+        top: 85px;
+        left: 140px;
+        font-size: 20px;
     }
 
     .name::first-letter {
-        font-size: 65px;
+        font-size: 40px;
     }
 
     #sochal_id {
-        bottom: 598px;
-        left: 100px;
+        left: 65px;
+        top: 170px;
+        width: 114px;
+        height: 22px;
     }
 
     #name_h3 {
-        top: 201px;
-        left: 62px;
-        font-size: 18px;
+        top: 125px;
+        left: 60px;
+        font-size: 17px;
     }
 
     .socal_class {
-        width: 24px;
+        width: 20px;
+        padding-right: 10px;
+    }
+    #main_section {
+        height: 253px;
     }
 }
 
