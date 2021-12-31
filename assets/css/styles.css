@@ -87,15 +87,70 @@ header > nav > ul > li > a:hover {
     font-size: 36px;
     margin-left: 50px;
 }
-#menu_mobile{
+
+#menu_mobile {
     display: none;
 }
-@media screen and (max-width: 450px) {
-    #menu_mobile{
+
+#main_section {
+    position: relative;
+    height: 919px;
+    background-image: url("../image/my_background.png");
+    background-size: cover;
+}
+
+#main_name {
+    position: absolute;
+    color: white;
+    top: 341px;
+    left: 72px;
+    font-size: 109px;
+}
+
+.name::first-letter {
+    color: red;
+    font-size: 150px;
+}
+
+#main_name2 {
+    position: absolute;
+    color: white;
+    top: 341px;
+    left: 650px;
+    font-size: 109px;
+}
+
+#name_h3 {
+    position: absolute;
+    color: white;
+    top: 550px;
+    left: 390px;
+    font-size: 35px;
+}
+
+#sochal_id {
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 70px;
+    bottom: 200px;
+    left: 340px;
+}
+
+.socal_class {
+    width: 70px;
+    padding-right: 25px;
+    padding-top: 0px;
+}
+
+
+@media all and (max-width: 450px) {
+    #menu_mobile {
         position: absolute;
         display: flex;
         top: 15px;
     }
+
     .sidenav {
         padding-top: 15px;
     }
@@ -103,13 +158,106 @@ header > nav > ul > li > a:hover {
     .sidenav a {
         font-size: 18px;
     }
+
     #brand {
         position: absolute;
         top: 12px;
         right: 10px;
         font-size: 30px;
     }
-    header>nav{
+
+    header > nav {
         display: none;
+    }
+
+    #main_name {
+        top: 112px;
+        left: 20px;
+        font-size: 33px;
+    }
+
+    #main_name2 {
+        top: 112px;
+        left: 200px;
+        font-size: 33px;
+    }
+
+    .name::first-letter {
+        font-size: 65px;
+    }
+
+    #sochal_id {
+        bottom: 598px;
+        left: 100px;
+    }
+
+    #name_h3 {
+        top: 201px;
+        left: 62px;
+        font-size: 18px;
+    }
+
+    .socal_class {
+        width: 24px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 768px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1440px) {
+    header > nav > ul > li > a {
+        font-size: 13px;
+    }
+
+    #brand {
+        font-size: 22px;
+    }
+
+    header > nav > ul > li {
+        padding: 15px;
+    }
+
+    header > nav > ul > li > a:hover {
+        font-size: 15px;
+    }
+
+    #menu_mobile {
+        display: none;
+    }
+
+    #main_name {
+        top: 250px;
+        left: 110px;
+        font-size: 65px;
+    }
+
+    #main_name2 {
+        top: 250px;
+        left: 440px;
+        font-size: 65px;
+    }
+
+    .name::first-letter {
+        font-size: 85px;
+    }
+
+    #main_section {
+        height: 693px;
+    }
+
+    #sochal_id {
+        left: 310px;
+    }
+
+    #name_h3 {
+        top: 360px;
+        left: 335px;
+        font-size: 25px;
+    }
+
+    .socal_class {
+        width: 40px;
     }
 }
