@@ -1,224 +1,115 @@
 body {
     background-color: black;
+    overflow: hidden;
 }
 
-header>nav {
-    position: relative;
-    background-color: black;
-    height: 60px;
-    background-size: cover;
-}
-
-header>nav>ul {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    list-style: none;
-}
-
-header>nav>ul>li {
-    padding: 0 20px 0 10px;
-    display: inline-block;
-}
-
-header>nav>ul>li>a {
+header > nav > ul > li > a {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    transition: all 1s;
 }
 
-header>nav>ul>li>a:hover {
+header {
+    padding: 0 20px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > nav > ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > nav > ul > li {
+    padding: 30px;
+    margin-left: 10px;
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+#brand > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > nav > ul > li > a:hover {
     color: red;
     transition: all 1s;
     font-size: 30px;
 }
 
-#main_section {
-    position: relative;
-    height: 919px;
-    background-image: url("../image/my_background.png");
-    background-size: cover;
+#hamberger_icon {
+    margin: 0;
+    display: none;
 }
 
-#main_name {
-    position: absolute;
-    color: white;
-    top: 341px;
-    left: 72px;
-    font-size: 109px;
-}
 
-.name::first-letter {
-    color: red;
-    font-size: 150px;
-}
-
-#main_name2 {
-    position: absolute;
-    color: white;
-    top: 341px;
-    left: 650px;
-    font-size: 109px;
-}
-
-#name_h3 {
-    position: absolute;
-    color: white;
-    top: 550px;
-    left: 390px;
-    font-size: 35px;
-}
-
-#sochal_id {
-    position: absolute;
-    display: flex;
-    width: 400px;
-    height: 70px;
-    bottom: 200px;
-    left: 340px;
-}
-
-.socal_class {
-    width: 70px;
-    padding-right: 25px;
-    padding-top: 0px;
-}
-
-#ser_section {
-    position: relative;
-    height: 900px;
-}
-
-#ser_h1 {
-    position: absolute;
-    color: white;
-    left: 790px;
-    font-size: 70px;
-    font-family: 'Righteous', cursive;
-}
-
-#SERDiv_section {
-    position: absolute;
-    height: 700px;
-    width: 85%;
-    top: 110px;
-    bottom: 0;
-    right: 0;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
-    margin: auto;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px 20px;
-}
-
-.ser_div {
-    border-radius: 80px;
-    background-image: linear-gradient(to left top, #000000, #101010, #1b1b1b, #252525, #2f2f2f, #2f2f2f, #2f2f2f, #2f2f2f, #252525, #1b1b1b, #101010, #000000);
-}
-
-.iphone {
-    width: 100px;
-    height: 100px;
-    padding-left: 210px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
     padding-top: 60px;
 }
 
-.ser_h1 {
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
     color: white;
-    margin: 0;
+    display: block;
+    transition: 0.3s;
 }
 
-#mobile {
-    padding-left: 120px;
-    padding-top: 40px;
+.sidenav a:hover {
+    color: red;
 }
 
-#freelanc {
-    padding-left: 180px;
-    padding-top: 40px;
-}
-
-#web {
-    padding-left: 137px;
-    padding-top: 40px;
-}
-
-#graphic {
-    padding-left: 145px;
-    padding-top: 40px;
-}
-
-#desktop {
-    padding-left: 128px;
-    padding-top: 40px;
-}
-
-#sql {
-    padding-left: 120px;
-    padding-top: 40px;
-}
-
-#gallery_section {
-    position: relative;
-    height: 520px;
-}
-
-#gallery_h1 {
+.sidenav .closebtn {
     position: absolute;
-    color: white;
-    margin: 0;
-    left: 831px;
-    font-size: 70px;
-    font-family: 'Righteous', cursive;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
-
-#gallery_div_section {
-    position: absolute;
-    height: 385px;
-    width: 90%;
-    top: 115px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
+#menu_mobile{
+    display: none;
 }
+@media screen and (max-width: 450px) {
+    #menu_mobile{
+        position: absolute;
+        display: flex;
+        top: 15px;
+    }
+    .sidenav {
+        padding-top: 15px;
+    }
 
-.gallery_div {
-    width: 520px;
-    border-radius: 60px;
-    background-image: linear-gradient(to left top, #000000, #101010, #1b1b1b, #252525, #2f2f2f, #2f2f2f, #2f2f2f, #2f2f2f, #252525, #1b1b1b, #101010, #000000);
-}
-
-.image_div {
-    width: 480px;
-    height: 340px;
-    top: 27px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    position: relative;
-    border-radius: 50px;
-}
-
-#img1 {
-    background-image: url(/assets/image/Sc.png);
-    background-size: cover;
-    background-position: center;
-}
-
-#img2 {
-    background-image: url(/assets/image/Scr.png);
-    background-size: cover;
-    background-position: center;
-}
-
-#img3 {
-    background-image: url(/assets/image/Scree.png);
-    background-size: cover;
-    background-position: center;
+    .sidenav a {
+        font-size: 18px;
+    }
+    #brand {
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        font-size: 30px;
+    }
+    header>nav{
+        display: none;
+    }
 }

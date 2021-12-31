@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dulanjana Lakshan</title>
     <link href="assets/css/normalize.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
@@ -13,6 +14,7 @@
 
 <body>
     <header>
+        <div id="brand"><a href="#">Dulanjana</a></div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -22,8 +24,26 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </div>
+        <span style="font-size:30px;cursor:pointer;color: white" onclick="openNav()" id="menu_mobile">&#9776;</span>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
     </header>
-    <main>
+    <!-- <main>
         <section id="main_section">
             <h1 id="main_name" class="name">Dulanjana</h1>
             <h1 id="main_name2" class="name">Lakshan</h1>
@@ -78,8 +98,17 @@
                 </div>
             </section>
         </section>
+        <section id="About_id">
+            <h1 id="About_h1">ABOUT ME</h1>
+            <section class="About_section">
+                <div id="About_image"></div>
+            </section>
+            <section class="About_section">
+
+            </section>
+        </section>
     </main>
-    <footer></footer>
+    <footer></footer> -->
 </body>
 
 </html>
