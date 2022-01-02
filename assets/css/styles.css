@@ -437,7 +437,51 @@ header > nav > ul > li > a:hover {
     #main_section {
         height: 253px;
     }
+    #ser_h1 {
+        position: relative;
+        color: white;
+        top: 0;
+        left: 32%;
+        font-size: 42px;
+    }
+    #SERDiv_section {
+        height: 84%;
+        width: 335px;
+    }
+    .ser_box {
+        width: 335px;
+    }
+    .ser_div{
+        margin-right: 45px;
+    }
+    #SERDiv_section {
+         position: absolute;
+         height: 75%;
+         width: 600%;
+         top: 110px;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         margin: auto;
+         display: flex;
+         animation-name: service;
+         animation-duration: 100s;
+         animation-direction: unset;
+         animation-iteration-count: infinite;
+         animation-delay: revert;
+     }
+    @keyframes service {
+        0% {
+            left: 0;
+        }
+        50% {
+            left: -500%;
 
+        }
+        100% {
+            left: 0;
+        }
+    }
     /* #SERDiv_section {
          position: absolute;
          height: 722px;
