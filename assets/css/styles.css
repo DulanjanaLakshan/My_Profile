@@ -1,9 +1,8 @@
 body {
     background-color: black;
-    overflow: hidden;
 }
 
-header > nav > ul > li > a {
+header>nav>ul>li>a {
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -16,7 +15,7 @@ header {
     justify-content: space-between;
 }
 
-header > nav > ul {
+header>nav>ul {
     list-style: none;
     height: 100%;
     display: flex;
@@ -25,7 +24,7 @@ header > nav > ul {
     justify-content: space-around;
 }
 
-header > nav > ul > li {
+header>nav>ul>li {
     padding: 30px;
     margin-left: 10px;
 }
@@ -37,12 +36,12 @@ header > nav > ul > li {
     align-items: center;
 }
 
-#brand > a {
+#brand>a {
     color: white;
     text-decoration: none;
 }
 
-header > nav > ul > li > a:hover {
+header>nav>ul>li>a:hover {
     color: red;
     transition: all 1s;
     font-size: 30px;
@@ -52,7 +51,6 @@ header > nav > ul > li > a:hover {
     margin: 0;
     display: none;
 }
-
 
 .sidenav {
     height: 100%;
@@ -144,61 +142,242 @@ header > nav > ul > li > a:hover {
 }
 
 
+/*Start SERVISES Section */
+
+#ser_section {
+    position: relative;
+    height: 900px;
+}
+
+#ser_h1 {
+    position: absolute;
+    color: white;
+    left: 790px;
+    font-size: 70px;
+    font-family: 'Righteous', cursive;
+}
+
+#SERDiv_section {
+    position: absolute;
+    height: 700px;
+    width: 85%;
+    top: 110px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 20px;
+}
+
+.ser_div {
+    border-radius: 80px;
+    background-image: linear-gradient(to left top, #000000, #101010, #1b1b1b, #252525, #2f2f2f, #2f2f2f, #2f2f2f, #2f2f2f, #252525, #1b1b1b, #101010, #000000);
+}
+
+.iphone {
+    width: 100px;
+    height: 100px;
+    padding-left: 210px;
+    padding-top: 60px;
+}
+
+.ser_h1 {
+    color: white;
+    margin: 0;
+}
+
+#mobile {
+    padding-left: 120px;
+    padding-top: 40px;
+}
+
+#freelanc {
+    padding-left: 180px;
+    padding-top: 40px;
+}
+
+#web {
+    padding-left: 137px;
+    padding-top: 40px;
+}
+
+#graphic {
+    padding-left: 145px;
+    padding-top: 40px;
+}
+
+#desktop {
+    padding-left: 128px;
+    padding-top: 40px;
+}
+
+#sql {
+    padding-left: 120px;
+    padding-top: 40px;
+}
+
+
+/*End SERVISES Section */
+
+
+/*Start Gallery Section */
+
+#gallery_section {
+    position: relative;
+    height: 520px;
+}
+
+#gallery_h1 {
+    position: absolute;
+    color: white;
+    margin: 0;
+    left: 831px;
+    font-size: 70px;
+    font-family: 'Righteous', cursive;
+}
+
+#gallery_div_section {
+    position: absolute;
+    height: 385px;
+    width: 90%;
+    top: 115px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery_div {
+    width: 520px;
+    border-radius: 60px;
+    background-image: linear-gradient(to left top, #000000, #101010, #1b1b1b, #252525, #2f2f2f, #2f2f2f, #2f2f2f, #2f2f2f, #252525, #1b1b1b, #101010, #000000);
+}
+
+.image_div {
+    width: 480px;
+    height: 340px;
+    top: 27px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: relative;
+    border-radius: 50px;
+}
+
+#img1 {
+    background-image: url(/assets/image/Sc.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img2 {
+    background-image: url(/assets/image/Scr.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img3 {
+    background-image: url(/assets/image/Scree.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*End Gallery Section */
+
+
+/*Start ABOUT ME Section */
+
+#About_id {
+    position: relative;
+    height: 900px;
+    border: 1px solid white;
+}
+
+#About_h1 {
+    position: absolute;
+    color: white;
+    margin: 0;
+    left: 831px;
+    font-size: 70px;
+    font-family: 'Righteous', cursive;
+}
+
+.About_section {
+    position: absolute;
+    height: 90%;
+    width: 80%;
+    top: 65px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid white;
+}
+
+#About_image {
+    position: absolute;
+    width: 35%;
+    height: 75%;
+    top: 120px;
+    left: 140px;
+    background-image: url(../image/Rajanganaya01.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px;
+}
+
 @media all and (max-width: 450px) {
     #menu_mobile {
         position: absolute;
         display: flex;
         top: 15px;
     }
-
     .sidenav {
         padding-top: 15px;
     }
-
     .sidenav a {
         font-size: 18px;
     }
-
     #brand {
         position: absolute;
         top: 12px;
         right: 10px;
         font-size: 30px;
     }
-
-    header > nav {
+    header>nav {
         display: none;
     }
-
     #main_name {
         top: 85px;
         left: 20px;
         font-size: 20px;
     }
-
     #main_name2 {
         top: 85px;
         left: 140px;
         font-size: 20px;
     }
-
     .name::first-letter {
         font-size: 40px;
     }
-
     #sochal_id {
         left: 65px;
         top: 170px;
         width: 114px;
         height: 22px;
     }
-
     #name_h3 {
         top: 125px;
         left: 60px;
         font-size: 17px;
     }
-
     .socal_class {
         width: 20px;
         padding-right: 10px;
@@ -209,60 +388,99 @@ header > nav > ul > li > a:hover {
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
-
+    #menu_mobile {
+        position: absolute;
+        display: flex;
+        top: 15px;
+    }
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    #brand {
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        font-size: 30px;
+    }
+    header>nav {
+        display: none;
+    }
+    #main_name {
+        top: 178px;
+        left: 20px;
+        font-size: 45px;
+    }
+    #main_name2 {
+        top: 178px;
+        left: 245px;
+        font-size: 45px;
+    }
+    .name::first-letter {
+        font-size: 55px;
+    }
+    #sochal_id {
+        left: 135px;
+        top: 310px;
+        width: 183px;
+        height: 42px;
+    }
+    #name_h3 {
+        top: 252px;
+        left: 140px;
+        font-size: 22px;
+    }
+    .socal_class {
+        width: 35px;
+        padding-right: 10px;
+    }
+    #main_section {
+        height: 412px;
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 1440px) {
-    header > nav > ul > li > a {
+    header>nav>ul>li>a {
         font-size: 13px;
     }
-
     #brand {
         font-size: 22px;
     }
-
-    header > nav > ul > li {
+    header>nav>ul>li {
         padding: 15px;
     }
-
-    header > nav > ul > li > a:hover {
+    header>nav>ul>li>a:hover {
         font-size: 15px;
     }
-
     #menu_mobile {
         display: none;
     }
-
     #main_name {
         top: 250px;
         left: 110px;
         font-size: 65px;
     }
-
     #main_name2 {
         top: 250px;
         left: 440px;
         font-size: 65px;
     }
-
     .name::first-letter {
         font-size: 85px;
     }
-
     #main_section {
         height: 693px;
     }
-
     #sochal_id {
         left: 310px;
     }
-
     #name_h3 {
         top: 360px;
         left: 335px;
         font-size: 25px;
     }
-
     .socal_class {
         width: 40px;
     }
