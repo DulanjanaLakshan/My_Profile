@@ -3,112 +3,124 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Dulanjana Lakshan</title>
     <link href="assets/css/normalize.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div id="brand"><a href="#">Dulanjana</a></div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<header>
+    <div id="brand"><a href="#">Dulanjana</a></div>
+    <nav>
+        <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-        </div>
-        <span style="font-size:30px;cursor:pointer;color: white" onclick="openNav()" id="menu_mobile">&#9776;</span>
-        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
+        </ul>
+    </nav>
+    <div class="sidenav" id="mySidenav">
+        <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </div>
+    <span id="menu_mobile" onclick="openNav()" style="font-size:30px;cursor:pointer;color: white">&#9776;</span>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
 
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
-        </script>
-    </header>
-    <main>
-        <section id="main_section">
-            <h1 id="main_name" class="name">Dulanjana</h1>
-            <h1 id="main_name2" class="name">Lakshan</h1>
-            <h3 id="name_h3">I am a Developer.</h3>
-            <section id="sochal_id">
-                <div><img src="assets/icon/icons8-facebook-circled-96.png" alt="" class="socal_class"></div>
-                <div><img src="assets/icon/icons8-instagram-96.png" alt="" class="socal_class"></div>
-                <div><img src="assets/icon/icons8-twitter-squared-96.png" alt="" class="socal_class"></div>
-                <div><img src="assets/icon/icons8-github-96.png" alt="" class="socal_class"></div>
-            </section>
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</header>
+<main>
+    <section id="main_section">
+        <h1 class="name" id="main_name">Dulanjana</h1>
+        <h1 class="name" id="main_name2">Lakshan</h1>
+        <h3 id="name_h3">I am a Developer.</h3>
+        <section id="sochal_id">
+            <div><img alt="" class="socal_class" src="assets/icon/icons8-facebook-circled-96.png"></div>
+            <div><img alt="" class="socal_class" src="assets/icon/icons8-instagram-96.png"></div>
+            <div><img alt="" class="socal_class" src="assets/icon/icons8-twitter-squared-96.png"></div>
+            <div><img alt="" class="socal_class" src="assets/icon/icons8-github-96.png"></div>
         </section>
-        <!--    <section id="ser_section">
-            <h1 id="ser_h1">SERVISES</h1>
-            <section id="SERDiv_section">
-                <div class="ser_div">
-                    <img src="assets/icon/icons8-iphone-24.png" alt="" class="iphone">
+    </section>
+    <section id="ser_section">
+        <h1 id="ser_h1">SERVICE</h1>
+        <section id="SERDiv_section">
+            <div class="ser_div">
+                <div class="ser_box">
+                    <img alt="" class="iphone" src="assets/icon/icons8-iphone-24.png">
                     <h1 class="ser_h1" id="mobile">Mobile Application</h1>
                 </div>
-                <div class="ser_div">
-                    <img src="assets/icon/icons8-workspace-96.png" alt="" class="iphone">
+            </div>
+            <div class="ser_div">
+                <div class="ser_box">
+                    <img alt="" class="iphone" src="assets/icon/icons8-workspace-96.png">
                     <h1 class="ser_h1" id="freelanc">Freelancing</h1>
                 </div>
-                <div class="ser_div">
-                    <img src="assets/icon/icons8-html-96.png" alt="" class="iphone">
+            </div>
+            <div class="ser_div">
+                <div class="ser_box">
+                    <img alt="" class="iphone" src="assets/icon/icons8-html-96.png">
                     <h1 class="ser_h1" id="web">Web Development</h1>
                 </div>
-                <div class="ser_div">
-                    <img src="assets/icon/icons8-pen-24.png" alt="" class="iphone">
-                    <h1 class="ser_h1" id="graphic">Graphic Design</h1>
-                </div>
-                <div class="ser_div">
-                    <img src="assets/icon/icons8-java-96.png" alt="" class="iphone">
+            </div>
+            <div class="ser_div">
+               <div class="ser_box">
+                   <img alt="" class="iphone" src="assets/icon/icons8-pen-24.png">
+                   <h1 class="ser_h1" id="graphic">Graphic Design</h1>
+               </div>
+            </div>
+            <div class="ser_div">
+                <div class="ser_box">
+                    <img alt="" class="iphone" src="assets/icon/icons8-java-96.png">
                     <h1 class="ser_h1" id="desktop">Desktop Application</h1>
                 </div>
-                <div class="ser_div">
-                    <img src="assets/icon/icons8-mysql-logo-96.png" alt="" class="iphone">
-                    <h1 class="ser_h1" id="sql">Database Management System</h1>
-                </div>
-            </section>-->
-        <!--   </section>
-        <section id="gallery_section">
-            <h1 id="gallery_h1">Gallery</h1>
-            <section id="gallery_div_section">
-                <div class="gallery_div">
-                    <div class="image_div" id="img1"></div>
-                </div>
-                <div class="gallery_div">
-                    <div class="image_div" id="img2"></div>
-                </div>
-                <div class="gallery_div">
-                    <div class="image_div" id="img3"></div>
-                </div>
-            </section>
+            </div>
+            <div class="ser_div">
+               <div class="ser_box">
+                   <img alt="" class="iphone" src="assets/icon/icons8-mysql-logo-96.png">
+                   <h1 class="ser_h1" id="sql">Database Management System</h1>
+               </div>
+            </div>
         </section>
-        <section id="About_id">
-            <h1 id="About_h1">ABOUT ME</h1>
-            <section class="About_section">
-                <div id="About_image"></div>
-            </section>
-            <section class="About_section">
+    </section>
+    <!--  <section id="gallery_section">
+          <h1 id="gallery_h1">Gallery</h1>
+          <section id="gallery_div_section">
+              <div class="gallery_div">
+                  <div class="image_div" id="img1"></div>
+              </div>
+              <div class="gallery_div">
+                  <div class="image_div" id="img2"></div>
+              </div>
+              <div class="gallery_div">
+                  <div class="image_div" id="img3"></div>
+              </div>
+          </section>
+      </section>
+      <section id="About_id">
+          <h1 id="About_h1">ABOUT ME</h1>
+          <section class="About_section">
+              <div id="About_image"></div>
+          </section>
+          <section class="About_section">
 
-            </section>
-        </section>-->
-    </main>
-    <footer></footer>
+          </section>
+      </section>-->
+</main>
+<footer></footer>
 </body>
 
 </html>
