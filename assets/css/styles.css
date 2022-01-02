@@ -93,7 +93,7 @@ header>nav>ul>li>a:hover {
 #main_section {
     position: relative;
     height: 919px;
-    background-image: url("../image/my_background.png");
+    background-image: url("../image/my_background.jpg");
     background-size: cover;
 }
 
