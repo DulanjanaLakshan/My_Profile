@@ -11,7 +11,7 @@ body {
 
 /*-----header css Start-------*/
 header {
-    position: sticky;
+    position: relative;
     height: 60px;
 }
 
@@ -97,6 +97,9 @@ header > nav > ul > li > a:hover {
     background-position: center;
 }
 
+#name{
+    position: relative;
+}
 #name1 {
     position: absolute;
     top: 360px;
@@ -190,25 +193,25 @@ header > nav > ul > li > a:hover {
         height: 425px;
     }
     #name1 {
-        top: 112px;
+        top: 155px;
         left: 11px;
-        font-size: 70px;
+        font-size: 40px;
     }
 
     #name2 {
         top: 200px;
-        left: 219px;
-        font-size: 70px;
+        left: 180px;
+        font-size: 40px;
     }
 
     #name3 {
-        top: 267px;
+        top: 242px;
         left: 31px;
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .name_an:first-letter {
-        font-size: 100px;
+        font-size: 60px;
     }
 }
 
