@@ -1,38 +1,46 @@
-<!--/**
+<!--
+/**
 * @author : Dulanjana Lakshan
 * @since : 0.1.0
-**/-->
-body{
+**/
+-->
+body {
     background-color: black;
     list-style: none;
 }
+
 /*-----header css Start-------*/
-header{
+header {
     position: sticky;
     height: 60px;
 }
-header>nav>ul{
+
+header > nav > ul {
     position: absolute;
     top: 0;
     right: 0;
     list-style: none;
 }
-header>nav>ul>li{
+
+header > nav > ul > li {
     display: inline-block;
     padding: 0 20px 0 10px;
 }
-header>nav>ul>li>a{
+
+header > nav > ul > li > a {
     text-decoration: none;
     color: white;
     transition: all 1s;
     font-size: 25px;
 }
-header>nav>ul>li>a:hover{
+
+header > nav > ul > li > a:hover {
     color: red;
     transition: all 1s;
     font-size: 30px;
 }
-#brand{
+
+#brand {
     font-size: 35px;
     text-decoration: none;
     color: white;
@@ -40,6 +48,7 @@ header>nav>ul>li>a:hover{
     top: 7px;
     position: absolute;
 }
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -73,57 +82,133 @@ header>nav>ul>li>a:hover{
     font-size: 36px;
     margin-left: 50px;
 }
-#menu_mobile{
+
+#menu_mobile {
     display: none;
 }
+
 /*-----header css End-------*/
 
 
-#background_section{
-    height: 900px;
+#background_section {
+    height: 887px;
     background-image: url("../image/my_background.jpg");
     background-size: cover;
     background-position: center;
 }
 
+#name1 {
+    position: absolute;
+    top: 360px;
+    left: 70px;
+    color: white;
+    font-size: 90px;
+}
 
+#name2 {
+    position: absolute;
+    top: 360px;
+    left: 562px;
+    color: white;
+    font-size: 90px;
+}
 
+#name3 {
+    position: absolute;
+    top: 513px;
+    left: 385px;
+    color: white;
+    font-size: 30px;
+}
 
-
+.name_an:first-letter {
+    color: red;
+    font-size: 115px;
+}
 
 
 /*--------------------------Responsive-----------------------------*/
 @media all and (max-width: 425px) {
-    #menu_mobile{
+    #menu_mobile {
         display: flex;
     }
-    header>nav{
+
+    header > nav {
         display: none;
     }
-    #brand{
+
+    #brand {
         position: absolute;
         top: 0;
         right: 12px;
     }
+
     #background_section {
         height: 238px;
+    }
+
+    #name1 {
+        top: 112px;
+        left: 11px;
+        font-size: 29px;
+    }
+
+    #name2 {
+        top: 144px;
+        left: 133px;
+        font-size: 29px;
+    }
+
+    #name3 {
+        top: 168px;
+        left: 31px;
+        font-size: 13px;
+    }
+
+    .name_an:first-letter {
+
+        font-size: 40px;
     }
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
-    #menu_mobile{
+    #menu_mobile {
         display: flex;
     }
-    header>nav{
+
+    header > nav {
         display: none;
     }
-    #brand{
+
+    #brand {
         position: absolute;
         top: 0;
         right: 12px;
     }
+
     #background_section {
         height: 425px;
+    }
+    #name1 {
+        top: 112px;
+        left: 11px;
+        font-size: 70px;
+    }
+
+    #name2 {
+        top: 200px;
+        left: 219px;
+        font-size: 70px;
+    }
+
+    #name3 {
+        top: 267px;
+        left: 31px;
+        font-size: 26px;
+    }
+
+    .name_an:first-letter {
+        font-size: 100px;
     }
 }
 
@@ -131,10 +216,55 @@ header>nav>ul>li>a:hover{
     #background_section {
         height: 566px;
     }
+    #name1 {
+        top: 198px;
+        left: 31px;
+        font-size: 70px;
+    }
+
+    #name2 {
+        top: 286px;
+        left: 239px;
+        font-size: 70px;
+    }
+
+    #name3 {
+        top: 353px;
+        left: 51px;
+        font-size: 26px;
+    }
+
+    .name_an:first-letter {
+        font-size: 100px;
+    }
 }
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
     #background_section {
         height: 808px;
+    }
+    #background_section {
+        height: 566px;
+    }
+    #name1 {
+        top: 198px;
+        left: 31px;
+        font-size: 70px;
+    }
+
+    #name2 {
+        top: 286px;
+        left: 239px;
+        font-size: 70px;
+    }
+
+    #name3 {
+        top: 353px;
+        left: 51px;
+        font-size: 26px;
+    }
+
+    .name_an:first-letter {
+        font-size: 100px;
     }
 }
