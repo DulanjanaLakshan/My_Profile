@@ -1,57 +1,45 @@
-body {
+<!--/**
+* @author : Dulanjana Lakshan
+* @since : 0.1.0
+**/-->
+body{
     background-color: black;
+    list-style: none;
 }
-
-header > nav > ul > li > a {
+/*-----header css Start-------*/
+header{
+    position: sticky;
+    height: 60px;
+}
+header>nav>ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 0 20px 0 10px;
+}
+header>nav>ul>li>a{
     text-decoration: none;
     color: white;
+    transition: all 1s;
     font-size: 25px;
 }
-
-header {
-    padding: 0 20px;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-}
-
-header > nav > ul {
-    list-style: none;
-    height: 100%;
-    display: flex;
-    margin: 0;
-    align-items: center;
-    justify-content: space-around;
-}
-
-header > nav > ul > li {
-    padding: 30px;
-    margin-left: 10px;
-}
-
-#brand {
-    font-weight: bold;
-    font-size: 35px;
-    display: flex;
-    align-items: center;
-}
-
-#brand > a {
-    color: white;
-    text-decoration: none;
-}
-
-header > nav > ul > li > a:hover {
+header>nav>ul>li>a:hover{
     color: red;
     transition: all 1s;
     font-size: 30px;
 }
-
-#hamberger_icon {
-    margin: 0;
-    display: none;
+#brand{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    font-family: Calibri;
+    top: 7px;
+    position: absolute;
 }
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -59,7 +47,7 @@ header > nav > ul > li > a:hover {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -85,624 +73,68 @@ header > nav > ul > li > a:hover {
     font-size: 36px;
     margin-left: 50px;
 }
-
-#menu_mobile {
+#menu_mobile{
     display: none;
 }
+/*-----header css End-------*/
 
-#main_section {
-    position: relative;
-    height: 919px;
+
+#background_section{
+    height: 900px;
     background-image: url("../image/my_background.jpg");
     background-size: cover;
-}
-
-#main_name {
-    position: absolute;
-    color: white;
-    top: 341px;
-    left: 72px;
-    font-size: 109px;
-}
-
-.name::first-letter {
-    color: red;
-    font-size: 150px;
-}
-
-#main_name2 {
-    position: absolute;
-    color: white;
-    top: 341px;
-    left: 650px;
-    font-size: 109px;
-}
-
-#name_h3 {
-    position: absolute;
-    color: white;
-    top: 550px;
-    left: 390px;
-    font-size: 35px;
-}
-
-#sochal_id {
-    position: absolute;
-    display: flex;
-    width: 400px;
-    height: 70px;
-    bottom: 200px;
-    left: 340px;
-}
-
-.socal_class {
-    width: 70px;
-    padding-right: 25px;
-    padding-top: 0px;
-}
-
-
-/*Start SERVISES Section */
-
-
-#ser_section {
-    position: relative;
-    height: 600px;
-    overflow: hidden;
-}
-
-#ser_h1 {
-    position: absolute;
-    color: white;
-    top: 0;
-    left: 50%;
-    font-size: 42px;
-}
-
-#SERDiv_section {
-    position: absolute;
-    height: 75%;
-    width: 200%;
-    top: 110px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    display: flex;
-    animation-name: service;
-    animation-duration: 100s;
-    animation-direction: unset;
-    animation-iteration-count: infinite;
-    animation-delay: revert;
-}
-
-@keyframes service {
-    0% {
-        left: 0;
-    }
-    50% {
-        left: -100%;
-
-    }
-    100% {
-        left: 0;
-    }
-}
-
-
-.ser_div {
-    width: 100%;
-    border-left-width: 50px;
-    border-top-width: 25px;
-    border-right-width: 50px;
-    border-bottom-width: 25px;
-    border-radius: 165px;
-}
-
-.iphone {
-    position: relative;
-    top: 40px;
-    left: 40%;
-}
-
-.ser_box {
-    background-image: linear-gradient(to left top, #000000, #141414, #202020, #2d2d2d, #3a3a3a, #3a3a3a, #3a3a3a, #3a3a3a, #2d2d2d, #202020, #141414, #000000);
-    height: 74%;
-    width: 421px;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    border-radius: 112px;
-}
-
-.ser_h1 {
-    color: white;
-    font-size: 37px;
-}
-
-#mobile {
-    position: absolute;
-    top: 156px;
-    left: 64px;
-}
-
-#freelanc {
-    position: absolute;
-    top: 156px;
-    left: 121px;
-}
-
-#web {
-    position: absolute;
-    top: 156px;
-    left: 64px;
-}
-
-#graphic {
-    position: absolute;
-    top: 156px;
-    left: 64px;
-}
-
-#desktop {
-    position: absolute;
-    top: 156px;
-    left: 64px;
-}
-
-#sql {
-    position: absolute;
-    top: 156px;
-    left: 64px;
-}
-
-
-/*
-!*End SERVISES Section *!
-
-
-!*Start Gallery Section *!
-
-#gallery_section {
-    position: relative;
-    height: 520px;
-}
-
-#gallery_h1 {
-    position: absolute;
-    color: white;
-    margin: 0;
-    left: 831px;
-    font-size: 70px;
-    font-family: 'Righteous', cursive;
-}
-
-#gallery_div_section {
-    position: absolute;
-    height: 385px;
-    width: 90%;
-    top: 115px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.gallery_div {
-    width: 520px;
-    border-radius: 60px;
-    background-image: linear-gradient(to left top, #000000, #101010, #1b1b1b, #252525, #2f2f2f, #2f2f2f, #2f2f2f, #2f2f2f, #252525, #1b1b1b, #101010, #000000);
-}
-
-.image_div {
-    width: 480px;
-    height: 340px;
-    top: 27px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    position: relative;
-    border-radius: 50px;
-}
-
-#img1 {
-    background-image: url(/assets/image/Sc.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#img2 {
-    background-image: url(/assets/image/Scr.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#img3 {
-    background-image: url(/assets/image/Scree.jpg);
-    background-size: cover;
     background-position: center;
 }
 
 
-!*End Gallery Section *!
 
 
-!*Start ABOUT ME Section *!
 
-#About_id {
-    position: relative;
-    height: 900px;
-    border: 1px solid white;
-}
 
-#About_h1 {
-    position: absolute;
-    color: white;
-    margin: 0;
-    left: 831px;
-    font-size: 70px;
-    font-family: 'Righteous', cursive;
-}
 
-.About_section {
-    position: absolute;
-    height: 90%;
-    width: 80%;
-    top: 65px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border: 2px solid white;
-}
-
-#About_image {
-    position: absolute;
-    width: 35%;
-    height: 75%;
-    top: 120px;
-    left: 140px;
-    background-image: url(../image/Rajanganaya.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 80px;
-}*/
-
-@media all and (max-width: 450px) {
-    #menu_mobile {
-        position: absolute;
+/*--------------------------Responsive-----------------------------*/
+@media all and (max-width: 425px) {
+    #menu_mobile{
         display: flex;
-        top: 15px;
     }
-
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-
-    #brand {
-        position: absolute;
-        top: 12px;
-        right: 10px;
-        font-size: 30px;
-    }
-
-    header > nav {
+    header>nav{
         display: none;
     }
-
-    #main_name {
-        top: 85px;
-        left: 20px;
-        font-size: 20px;
-    }
-
-    #main_name2 {
-        top: 85px;
-        left: 140px;
-        font-size: 20px;
-    }
-
-    .name::first-letter {
-        font-size: 40px;
-    }
-
-    #sochal_id {
-        left: 65px;
-        top: 170px;
-        width: 114px;
-        height: 22px;
-    }
-
-    #name_h3 {
-        top: 125px;
-        left: 60px;
-        font-size: 17px;
-    }
-
-    .socal_class {
-        width: 20px;
-        padding-right: 10px;
-    }
-
-    #main_section {
-        height: 253px;
-    }
-    #ser_h1 {
-        position: relative;
-        color: white;
+    #brand{
+        position: absolute;
         top: 0;
-        left: 32%;
-        font-size: 42px;
+        right: 12px;
     }
-    #SERDiv_section {
-        height: 84%;
-        width: 335px;
+    #background_section {
+        height: 238px;
     }
-    .ser_box {
-        width: 335px;
-    }
-    .ser_div{
-        margin-right: 45px;
-    }
-    #SERDiv_section {
-         position: absolute;
-         height: 75%;
-         width: 600%;
-         top: 110px;
-         left: 0;
-         right: 0;
-         bottom: 0;
-         margin: auto;
-         display: flex;
-         animation-name: service;
-         animation-duration: 100s;
-         animation-direction: unset;
-         animation-iteration-count: infinite;
-         animation-delay: revert;
-     }
-    @keyframes service {
-        0% {
-            left: 0;
-        }
-        50% {
-            left: -500%;
-
-        }
-        100% {
-            left: 0;
-        }
-    }
-    /* #SERDiv_section {
-         position: absolute;
-         height: 722px;
-         width: 66%;
-         top: 28px;
-         bottom: 0;
-         right: 0;
-         left: 0;
-         margin: auto;
-         display: grid;
-         grid-template-columns: repeat(1, 1fr);
-         grid-gap: 10px 20px;
-     }
-     #ser_h1 {
-         left: 115px;
-         font-size: 40px;
-     }
-     .iphone {
-         width: 49px;
-         height: 48px;
-         padding-left: 108px;
-         padding-top: 36px;
-     }
-     #mobile {
-         padding-left: 52px;
-         padding-top: 60px;
-         font-size: 28px;
-     }
-     #freelanc {
-         padding-left: 66px;
-         padding-top: 57px;
-         font-size: 36px;
-     }
-     #web {
-         padding-left: 36px;
-         padding-top: 52px;
-         font-size: 31px;
-     }
-     #graphic {
-         padding-left: 54px;
-         padding-top: 55px;
-         font-size: 32px;
-     }
-     #desktop {
-         padding-left: 22px;
-         padding-top: 64px;
-         font-size: 31px;
-     }
-     #sql {
-         padding-left: 26px;
-         padding-top: 67px;
-         font-size: 27px;
-     }*/
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
-    #menu_mobile {
-        position: absolute;
+    #menu_mobile{
         display: flex;
-        top: 15px;
     }
-
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-
-    #brand {
-        position: absolute;
-        top: 12px;
-        right: 10px;
-        font-size: 30px;
-    }
-
-    header > nav {
+    header>nav{
         display: none;
     }
-
-    #main_name {
-        top: 178px;
-        left: 20px;
-        font-size: 45px;
+    #brand{
+        position: absolute;
+        top: 0;
+        right: 12px;
     }
-
-    #main_name2 {
-        top: 178px;
-        left: 245px;
-        font-size: 45px;
+    #background_section {
+        height: 425px;
     }
-
-    .name::first-letter {
-        font-size: 55px;
-    }
-
-    #sochal_id {
-        left: 135px;
-        top: 310px;
-        width: 183px;
-        height: 42px;
-    }
-
-    #name_h3 {
-        top: 252px;
-        left: 140px;
-        font-size: 22px;
-    }
-
-    .socal_class {
-        width: 35px;
-        padding-right: 10px;
-    }
-
-    #main_section {
-        height: 412px;
-    }
-
-    /*  #SERDiv_section {
-          position: absolute;
-          height: 781px;
-          width: 90%;
-          grid-template-rows: repeat(3, 1fr);
-          grid-template-columns: repeat(2, 1fr);
-      }
-
-      #ser_h1 {
-          left: 235px;
-          font-size: 55px;
-      }
-      .iphone {
-          width: 50px;
-          height: 48px;
-          padding-left: 134px;
-          padding-top: 36px;
-      }
-      #mobile {
-          padding-left: 52px;
-          padding-top: 60px;
-          font-size: 28px;
-      }
-      #freelanc {
-          padding-left: 66px;
-          padding-top: 57px;
-          font-size: 36px;
-      }
-      #web {
-          padding-left: 36px;
-          padding-top: 52px;
-          font-size: 31px;
-      }
-      #graphic {
-          padding-left: 54px;
-          padding-top: 55px;
-          font-size: 32px;
-      }
-      #desktop {
-          padding-left: 22px;
-          padding-top: 64px;
-          font-size: 31px;
-      }
-      #sql {
-          padding-left: 26px;
-          padding-top: 67px;
-          font-size: 27px;
-      }*/
 }
 
-@media all and (min-width: 768px) and (max-width: 1440px) {
-    header > nav > ul > li > a {
-        font-size: 13px;
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #background_section {
+        height: 566px;
     }
+}
 
-    #brand {
-        font-size: 22px;
-    }
-
-    header > nav > ul > li {
-        padding: 15px;
-    }
-
-    header > nav > ul > li > a:hover {
-        font-size: 15px;
-    }
-
-    #menu_mobile {
-        display: none;
-    }
-
-    #main_name {
-        top: 250px;
-        left: 110px;
-        font-size: 65px;
-    }
-
-    #main_name2 {
-        top: 250px;
-        left: 440px;
-        font-size: 65px;
-    }
-
-    .name::first-letter {
-        font-size: 85px;
-    }
-
-    #main_section {
-        height: 693px;
-    }
-
-    #sochal_id {
-        left: 310px;
-    }
-
-    #name_h3 {
-        top: 360px;
-        left: 335px;
-        font-size: 25px;
-    }
-
-    .socal_class {
-        width: 40px;
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+    #background_section {
+        height: 808px;
     }
 }
