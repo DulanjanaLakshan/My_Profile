@@ -319,6 +319,30 @@ header > nav > ul > li > a:hover {
         justify-content: flex-start;
     }
 
+    #ser_h1 {
+        left: 26%;
+    }
+
+    #ser_section {
+        top: 37px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        left: 27px;
+        width: 92%;
+        height: 45%;
+
+    }
+
+    #ser_section2 {
+        top: 693px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        left: 27px;
+        height: 53%;
+        width: 70%;
+    }
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
@@ -370,6 +394,62 @@ header > nav > ul > li > a:hover {
         width: 203px;
         justify-content: flex-start;
     }
+
+    #ser_section {
+        width: 93%;
+        height: 32%;
+    }
+
+    #ser_section2 {
+        width: 93%;
+        height: 32%;
+        top: 432px;
+    }
+
+    #ser_section > div {
+        width: 209px;
+    }
+
+    #ser_section2 > div {
+        width: 209px;
+    }
+
+    #h1_1 {
+        top: 172px;
+        left: 10px;
+        font-size: 23px;
+    }
+
+    #h1_2 {
+        top: 172px;
+        left: 48px;
+        font-size: 23px;
+    }
+
+    #h1_3 {
+        top: 172px;
+        left: 43px;
+        font-size: 23px;
+    }
+
+    #h1_4 {
+        top: 172px;
+        left: 28px;
+        font-size: 23px;
+    }
+
+    #h1_5 {
+        top: 172px;
+        left: 41px;
+        font-size: 23px;
+    }
+
+    #h1_6 {
+        top: 172px;
+        left: 46px;
+        font-size: 23px;
+    }
+
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -404,6 +484,54 @@ header > nav > ul > li > a:hover {
         top: 548px;
         left: 155px;
     }
+
+    #ser_section {
+        height: 35%;
+        width: 85%;
+    }
+
+    #ser_section2 {
+        height: 35%;
+        width: 85%;
+    }
+
+    #ser_section > div {
+        width: 224px;
+    }
+
+    #ser_section2 > div {
+        width: 224px;
+    }
+
+    #h1_1 {
+        top: 172px;
+        left: 38px;
+    }
+
+    #h1_2 {
+        top: 172px;
+        left: 38px;
+    }
+
+    #h1_3 {
+        top: 172px;
+        left: 30px;
+    }
+
+    #h1_4 {
+        top: 172px;
+        left: 51px;
+    }
+
+    #h1_5 {
+        top: 172px;
+        left: 30px;
+    }
+
+    #h1_6 {
+        top: 172px;
+        left: 35px;
+    }
 }
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
@@ -436,5 +564,13 @@ header > nav > ul > li > a:hover {
     #icon {
         top: 610px;
         left: 263px;
+    }
+
+    #ser_section {
+        width: 90%;
+    }
+
+    #ser_section2 {
+        width: 90%;
     }
 }
