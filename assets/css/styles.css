@@ -147,7 +147,9 @@ header > nav > ul > li > a:hover {
     }
 
     #background_section {
-        height: 238px;
+        width: 100%;
+        background-position: 702px;
+        height: 749px;
     }
 
     #name1 {
@@ -190,7 +192,9 @@ header > nav > ul > li > a:hover {
     }
 
     #background_section {
-        height: 425px;
+        height: 749px;
+        background-position: 903px;
+        width: 100%;
     }
     #name1 {
         top: 155px;
@@ -217,7 +221,8 @@ header > nav > ul > li > a:hover {
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     #background_section {
-        height: 566px;
+        height: 750px;
+        width: 100%;
     }
     #name1 {
         top: 198px;
@@ -246,25 +251,22 @@ header > nav > ul > li > a:hover {
     #background_section {
         height: 808px;
     }
-    #background_section {
-        height: 566px;
-    }
     #name1 {
-        top: 198px;
-        left: 31px;
+        top: 356px;
+        left: 91px;
         font-size: 70px;
     }
 
     #name2 {
-        top: 286px;
-        left: 239px;
+        top: 445px;
+        left: 385px;
         font-size: 70px;
     }
 
     #name3 {
-        top: 353px;
-        left: 51px;
-        font-size: 26px;
+        top: 512px;
+        left: 111px;
+        font-size: 35px;
     }
 
     .name_an:first-letter {
