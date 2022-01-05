@@ -35,7 +35,7 @@ header > nav > ul > li > a {
 }
 
 header > nav > ul > li > a:hover {
-    color:  rgb(43, 43, 43);
+    color: rgb(43, 43, 43);
     transition: all 1s;
 }
 
@@ -90,15 +90,16 @@ header > nav > ul > li > a:hover {
 
 
 #background_section {
-    height: 887px;
+    height: 900px;
     background-image: url("../image/my_background.jpg");
     background-size: cover;
     background-position: center;
 }
 
-#name{
+#name {
     position: relative;
 }
+
 #name1 {
     position: absolute;
     top: 360px;
@@ -126,6 +127,30 @@ header > nav > ul > li > a:hover {
 .name_an:first-letter {
     color: red;
     font-size: 115px;
+}
+
+#icon {
+    position: absolute;
+    display: flex;
+    top: 590px;
+    left: 360px;
+}
+
+.icon_img {
+    width: 65px;
+    height: 65px;
+}
+
+.icon_div:nth-child(2) {
+    left: 402px;
+}
+
+.icon_div:nth-child(3) {
+    left: 513px;
+}
+
+.icon_div:nth-child(4) {
+    left: 616px;
 }
 
 
@@ -173,6 +198,16 @@ header > nav > ul > li > a:hover {
     .name_an:first-letter {
         font-size: 60px;
     }
+
+    .icon_img {
+        width: 40px;
+        height: 40px;
+    }
+    #icon {
+        top: 539px;
+        left: 23px;
+    }
+
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
@@ -195,6 +230,7 @@ header > nav > ul > li > a:hover {
         background-position: 903px;
         width: 100%;
     }
+
     #name1 {
         top: 320px;
         left: 11px;
@@ -216,6 +252,10 @@ header > nav > ul > li > a:hover {
     .name_an:first-letter {
         font-size: 83px;
     }
+    #icon {
+        top: 561px;
+        left: 76px;
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -223,6 +263,7 @@ header > nav > ul > li > a:hover {
         height: 750px;
         width: 100%;
     }
+
     #name1 {
         top: 282px;
         left: 31px;
@@ -244,12 +285,17 @@ header > nav > ul > li > a:hover {
     .name_an:first-letter {
         font-size: 100px;
     }
+    #icon {
+        top: 548px;
+        left: 155px;
+    }
 }
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
     #background_section {
         height: 808px;
     }
+
     #name1 {
         top: 356px;
         left: 91px;
@@ -270,5 +316,9 @@ header > nav > ul > li > a:hover {
 
     .name_an:first-letter {
         font-size: 100px;
+    }
+    #icon {
+        top: 610px;
+        left: 263px;
     }
 }
