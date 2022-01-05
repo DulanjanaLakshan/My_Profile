@@ -35,9 +35,8 @@ header > nav > ul > li > a {
 }
 
 header > nav > ul > li > a:hover {
-    color: red;
+    color:  rgb(43, 43, 43);
     transition: all 1s;
-    font-size: 30px;
 }
 
 #brand {
@@ -56,7 +55,7 @@ header > nav > ul > li > a:hover {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.84);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -72,7 +71,7 @@ header > nav > ul > li > a:hover {
 }
 
 .sidenav a:hover {
-    color: red;
+    color: #808080;
 }
 
 .sidenav .closebtn {
@@ -153,26 +152,26 @@ header > nav > ul > li > a:hover {
     }
 
     #name1 {
-        top: 112px;
+        top: 335px;
         left: 11px;
-        font-size: 29px;
+        font-size: 40px;
     }
 
     #name2 {
-        top: 144px;
-        left: 133px;
-        font-size: 29px;
+        top: 395px;
+        left: 125px;
+        font-size: 40px;
+        text-shadow: 5px 3px 4px black;
     }
 
     #name3 {
-        top: 168px;
-        left: 31px;
-        font-size: 13px;
+        top: 469px;
+        left: 23px;
+        font-size: 22px;
     }
 
     .name_an:first-letter {
-
-        font-size: 40px;
+        font-size: 60px;
     }
 }
 
@@ -197,25 +196,25 @@ header > nav > ul > li > a:hover {
         width: 100%;
     }
     #name1 {
-        top: 155px;
+        top: 320px;
         left: 11px;
-        font-size: 40px;
+        font-size: 50px;
     }
 
     #name2 {
-        top: 200px;
+        top: 400px;
         left: 180px;
-        font-size: 40px;
+        font-size: 50px;
     }
 
     #name3 {
-        top: 242px;
+        top: 500px;
         left: 31px;
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .name_an:first-letter {
-        font-size: 60px;
+        font-size: 83px;
     }
 }
 
@@ -225,21 +224,21 @@ header > nav > ul > li > a:hover {
         width: 100%;
     }
     #name1 {
-        top: 198px;
+        top: 282px;
         left: 31px;
         font-size: 70px;
     }
 
     #name2 {
-        top: 286px;
+        top: 377px;
         left: 239px;
         font-size: 70px;
     }
 
     #name3 {
-        top: 353px;
-        left: 51px;
-        font-size: 26px;
+        top: 454px;
+        left: 37px;
+        font-size: 28px;
     }
 
     .name_an:first-letter {
