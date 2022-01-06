@@ -157,111 +157,93 @@ header > nav > ul > li > a:hover {
 
 /*--------------------------main background end-----------------------------*/
 /*--------------------------services-----------------------------*/
-
 #services {
     position: relative;
-    height: 980px;
+    height: 665px;
+    display: flex;
 }
 
 #ser_h1 {
-    position: absolute;
-    font-size: 50px;
-    top: 0;
-    left: 44%;
     color: white;
-    margin: auto;
-}
-
-#ser_section {
     position: absolute;
-    height: 35%;
-    width: 70%;
-    /* border: 1px solid white;*/
-    top: 90px;
-    left: 0;
-    right: 0;
+    top: 0;
+    left: 531px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
 }
 
-#ser_section2 {
+.ser_section {
     position: absolute;
-    height: 35%;
-    width: 70%;
-    /* border: 1px solid white;*/
-    top: 526px;
-    left: 0;
+    height: 726px;
+    width: 88%;
+    top: 31px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     right: 0;
+    left: 0;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
 }
 
-#ser_section > div {
-    position: relative;
-    width: 370px;
-    border-radius: 75px;
-    background-image: linear-gradient(to left top, #000000, #101010, #1b1b1b, #252525, #2f2f2f, #2f2f2f, #2f2f2f, #2f2f2f, #252525, #1b1b1b, #101010, #000000);
-}
-
-#ser_section2 > div {
-    position: relative;
-    width: 370px;
-    border-radius: 75px;
-    background-image: linear-gradient(to left top, #000000, #101010, #1b1b1b, #252525, #2f2f2f, #2f2f2f, #2f2f2f, #2f2f2f, #252525, #1b1b1b, #101010, #000000);
+.ser_section > div {
+    width: 100%;
+    height: 100%;
+    color: white;
 }
 
 .ser_img_div {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 73px;
+    position: relative;
+    top: 50px;
+    left: 35%;
 }
 
 #h1_1 {
-    color: white;
-    position: absolute;
-    top: 170px;
-    left: 54px;
+    position: relative;
+    padding-left: 68px;
+    padding-top: 45px;
+    font-size: 25px;
+    margin: auto;
 }
 
 #h1_2 {
-    color: white;
-    position: absolute;
-    top: 170px;
-    left: 105px;
+    position: relative;
+    padding-left: 104px;
+    padding-top: 45px;
+    font-size: 25px;
+    margin: auto;
 }
 
 #h1_3 {
-    color: white;
-    position: absolute;
-    top: 170px;
-    left: 69px;
+    position: relative;
+    padding-left: 66px;
+    padding-top: 45px;
+    font-size: 25px;
+    margin: auto;
 }
 
 #h1_4 {
-    color: white;
-    position: absolute;
-    top: 170px;
-    left: 72px;
+    position: relative;
+    padding-left: 96px;
+    padding-top: 45px;
+    font-size: 25px;
+    margin: auto;
 }
 
 #h1_5 {
-    color: white;
-    position: absolute;
-    top: 170px;
-    left: 100px;
+    position: relative;
+    padding-left: 26px;
+    padding-top: 45px;
+    font-size: 25px;
+    margin: auto;
 }
 
 #h1_6 {
-    color: white;
-    position: absolute;
-    top: 170px;
-    left: 36px;
+    position: relative;
+    padding-left: 48px;
+    padding-top: 45px;
+    font-size: 25px;
+    margin: auto;
 }
 
+/*--------------------------services End-----------------------------*/
 /*--------------------------Responsive-----------------------------*/
 @media all and (max-width: 425px) {
     #menu_mobile {
@@ -323,25 +305,52 @@ header > nav > ul > li > a:hover {
         left: 26%;
     }
 
-    #ser_section {
-        top: 37px;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        left: 27px;
-        width: 92%;
-        height: 45%;
-
+    #services {
+        height: 1500px;
     }
 
-    #ser_section2 {
-        top: 693px;
+    #ser_h1 {
+        left: 119px;
+    }
+
+    .ser_section {
+        height: 1465px;
+        top: 31px;
         display: flex;
         flex-direction: column;
-        margin: 0;
-        left: 27px;
-        height: 53%;
-        width: 70%;
+        justify-content: center;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #h1_1 {
+        padding-left: 68px;
+        padding-top: 45px;
+    }
+
+    #h1_2 {
+        padding-left: 108px;
+        padding-top: 45px;
+    }
+
+    #h1_3 {
+        padding-left: 69px;
+        padding-top: 45px;
+    }
+
+    #h1_4 {
+        padding-left: 80px;
+        padding-top: 45px;
+    }
+
+    #h1_5 {
+        padding-left: 38px;
+        padding-top: 45px;
+    }
+
+    #h1_6 {
+        padding-left: 7px;
+        padding-top: 45px;
     }
 }
 
@@ -395,61 +404,48 @@ header > nav > ul > li > a:hover {
         justify-content: flex-start;
     }
 
-    #ser_section {
-        width: 93%;
-        height: 32%;
+    #services {
+        height: 737px;
+        display: flex;
     }
 
-    #ser_section2 {
-        width: 93%;
-        height: 32%;
-        top: 432px;
+    #ser_h1 {
+        left: 313px;
     }
 
-    #ser_section > div {
-        width: 209px;
-    }
-
-    #ser_section2 > div {
-        width: 209px;
+    .ser_section {
+        height: 726px;
+        top: 31px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        right: 0;
+        left: 0;
+        margin: auto;
     }
 
     #h1_1 {
-        top: 172px;
-        left: 10px;
-        font-size: 23px;
+        padding-left: 68px;
     }
 
     #h1_2 {
-        top: 172px;
-        left: 48px;
-        font-size: 23px;
+        padding-left: 104px;
     }
 
     #h1_3 {
-        top: 172px;
-        left: 43px;
-        font-size: 23px;
+        padding-left: 66px;
     }
 
     #h1_4 {
-        top: 172px;
-        left: 28px;
-        font-size: 23px;
+        padding-left: 96px;
     }
 
     #h1_5 {
-        top: 172px;
-        left: 41px;
-        font-size: 23px;
+        padding-left: 26px;
     }
 
     #h1_6 {
-        top: 172px;
-        left: 46px;
-        font-size: 23px;
+        padding-left: 48px;
     }
-
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -485,52 +481,48 @@ header > nav > ul > li > a:hover {
         left: 155px;
     }
 
-    #ser_section {
-        height: 35%;
-        width: 85%;
+    #services {
+        height: 737px;
+        display: flex;
     }
 
-    #ser_section2 {
-        height: 35%;
-        width: 85%;
+    #ser_h1 {
+        left: 382px;
     }
 
-    #ser_section > div {
-        width: 224px;
+    .ser_section {
+        height: 726px;
+        top: 31px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        right: 0;
+        left: 0;
+        margin: auto;
     }
 
-    #ser_section2 > div {
-        width: 224px;
-    }
 
     #h1_1 {
-        top: 172px;
-        left: 38px;
+        padding-left: 68px;
     }
 
     #h1_2 {
-        top: 172px;
-        left: 38px;
+        padding-left: 104px;
     }
 
     #h1_3 {
-        top: 172px;
-        left: 30px;
+        padding-left: 66px;
     }
 
     #h1_4 {
-        top: 172px;
-        left: 51px;
+        padding-left: 96px;
     }
 
     #h1_5 {
-        top: 172px;
-        left: 30px;
+        padding-left: 26px;
     }
 
     #h1_6 {
-        top: 172px;
-        left: 35px;
+        padding-left: 48px;
     }
 }
 
