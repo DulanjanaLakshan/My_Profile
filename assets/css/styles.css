@@ -11,14 +11,18 @@ body {
 
 /*-----header css Start-------*/
 header {
-    position: relative;
+    position: fixed;
     height: 60px;
+    width: 100%;
+}
+
+header > nav {
+    position: absolute;
+    right: 30px;
+    top: 0;
 }
 
 header > nav > ul {
-    position: absolute;
-    top: 0;
-    right: 0;
     list-style: none;
 }
 
@@ -30,22 +34,23 @@ header > nav > ul > li {
 header > nav > ul > li > a {
     text-decoration: none;
     color: white;
-    transition: all 1s;
     font-size: 25px;
-}
-
-header > nav > ul > li > a:hover {
-    color: rgb(118, 0, 0);
-    transition: all 1s;
+    text-shadow: 1px 2px 5px black;
 }
 
 #brand {
-    font-size: 35px;
+    font-size: 42px;
     text-decoration: none;
     color: white;
-    font-family: Calibri;
-    top: 7px;
+    font-family: 'Special Elite', cursive;
+    top: 12px;
     position: absolute;
+    left: 30px;
+}
+
+#brand:first-letter {
+    color: red;
+    font-size: 50px;
 }
 
 .sidenav {
@@ -90,7 +95,7 @@ header > nav > ul > li > a:hover {
 
 /*--------------------------main background-----------------------------*/
 #background_section {
-    height: 900px;
+    height: 948px;
     background-image: url("../image/my_background.jpg");
     background-size: cover;
     background-position: center;
@@ -159,23 +164,25 @@ header > nav > ul > li > a:hover {
 /*--------------------------services-----------------------------*/
 #services {
     position: relative;
-    height: 665px;
+    height: 737px;
     display: flex;
 }
 
 #ser_h1 {
     color: white;
     position: absolute;
-    top: 0;
-    left: 531px;
+    top: 16px;
+    left: 768px;
     margin: auto;
+    font-family: 'Ultra', serif;
+    font-size: 50px;
 }
 
 .ser_section {
     position: absolute;
-    height: 726px;
+    height: 629px;
     width: 88%;
-    top: 31px;
+    top: 129px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     right: 0;
@@ -197,7 +204,7 @@ header > nav > ul > li > a:hover {
 
 #h1_1 {
     position: relative;
-    padding-left: 68px;
+    padding-left: 141px;
     padding-top: 45px;
     font-size: 25px;
     margin: auto;
@@ -205,7 +212,7 @@ header > nav > ul > li > a:hover {
 
 #h1_2 {
     position: relative;
-    padding-left: 104px;
+    padding-left: 177px;
     padding-top: 45px;
     font-size: 25px;
     margin: auto;
@@ -213,7 +220,7 @@ header > nav > ul > li > a:hover {
 
 #h1_3 {
     position: relative;
-    padding-left: 66px;
+    padding-left: 142px;
     padding-top: 45px;
     font-size: 25px;
     margin: auto;
@@ -221,7 +228,7 @@ header > nav > ul > li > a:hover {
 
 #h1_4 {
     position: relative;
-    padding-left: 96px;
+    padding-left: 140px;
     padding-top: 45px;
     font-size: 25px;
     margin: auto;
@@ -229,7 +236,7 @@ header > nav > ul > li > a:hover {
 
 #h1_5 {
     position: relative;
-    padding-left: 26px;
+    padding-left: 105px;
     padding-top: 45px;
     font-size: 25px;
     margin: auto;
@@ -237,7 +244,7 @@ header > nav > ul > li > a:hover {
 
 #h1_6 {
     position: relative;
-    padding-left: 48px;
+    padding-left: 99px;
     padding-top: 45px;
     font-size: 25px;
     margin: auto;
@@ -258,6 +265,11 @@ header > nav > ul > li > a:hover {
         position: absolute;
         top: 0;
         right: 12px;
+        left: 315px;
+    }
+
+    #ser_h1 {
+        left: 74px;
     }
 
     #background_section {
@@ -301,17 +313,11 @@ header > nav > ul > li > a:hover {
         justify-content: flex-start;
     }
 
-    #ser_h1 {
-        left: 26%;
-    }
 
     #services {
         height: 1500px;
     }
 
-    #ser_h1 {
-        left: 119px;
-    }
 
     .ser_section {
         height: 1465px;
@@ -366,7 +372,7 @@ header > nav > ul > li > a:hover {
     #brand {
         position: absolute;
         top: 0;
-        right: 12px;
+        left: 636px;
     }
 
     #background_section {
@@ -410,7 +416,7 @@ header > nav > ul > li > a:hover {
     }
 
     #ser_h1 {
-        left: 313px;
+        left: 235px;
     }
 
     .ser_section {
@@ -447,7 +453,11 @@ header > nav > ul > li > a:hover {
         padding-left: 48px;
     }
 }
-
+@media all and (min-width: 425px) and (max-width: 768px) {
+    #ser_h1 {
+        left: 143px;
+    }
+}
 @media all and (min-width: 768px) and (max-width: 1024px) {
     #background_section {
         height: 750px;
@@ -487,7 +497,8 @@ header > nav > ul > li > a:hover {
     }
 
     #ser_h1 {
-        left: 382px;
+        top: 31px;
+        left: 351px;
     }
 
     .ser_section {
@@ -500,29 +511,34 @@ header > nav > ul > li > a:hover {
         margin: auto;
     }
 
-
     #h1_1 {
-        padding-left: 68px;
+        padding-left: 92px;
+        padding-top: 45px;
     }
 
     #h1_2 {
-        padding-left: 104px;
+        padding-left: 131px;
+        padding-top: 45px;
     }
 
     #h1_3 {
-        padding-left: 66px;
+        padding-left: 101px;
+        padding-top: 45px;
     }
 
     #h1_4 {
-        padding-left: 96px;
+        padding-left: 97px;
+        padding-top: 45px;
     }
 
     #h1_5 {
-        padding-left: 26px;
+        padding-left: 60px;
+        padding-top: 45px;
     }
 
     #h1_6 {
-        padding-left: 48px;
+        padding-left: 37px;
+        padding-top: 45px;
     }
 }
 
@@ -564,5 +580,34 @@ header > nav > ul > li > a:hover {
 
     #ser_section2 {
         width: 90%;
+    }
+
+    #ser_h1 {
+        top: 73px;
+        left: 585px;
+    }
+
+    #h1_1 {
+        padding-left: 110px;
+    }
+
+    #h1_2 {
+        padding-left: 136px;
+    }
+
+    #h1_3 {
+        padding-left: 99px;
+    }
+
+    #h1_4 {
+        padding-left: 100px;
+    }
+
+    #h1_5 {
+        padding-left: 66px;
+    }
+
+    #h1_6 {
+        padding-left: 52px;
     }
 }
