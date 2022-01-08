@@ -326,18 +326,81 @@ header > nav > ul > li > a:hover {
 .block:after {
     filter: blur(10px);
 }
-#about_image{
+
+#about_image {
     width: 535px;
 }
-#about_h1{
+
+#about_h1 {
     position: absolute;
     color: white;
-    left: 90px;
+    left:329px;
     top: 25px;
     margin: auto;
     font-size: 40px;
     border-bottom: 3px solid red;
 }
+
+#about_details {
+    height: 470px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-radius: 118px;
+}
+
+#about_h2 {
+    position: absolute;
+    color: white;
+    top: 25px;
+    margin: auto;
+    font-size: 30px;
+}
+
+#about_p {
+    position: absolute;
+    color: white;
+    top: 94px;
+    margin: auto;
+    font-size: 26px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#h3_1 {
+    color: white;
+    position: absolute;
+    bottom: 177px;
+    left: 49px;
+}
+
+#h3_2 {
+    color: white;
+    position: absolute;
+    bottom: 177px;
+    right: 174px;
+}
+
+#h3_3 {
+    color: white;
+    position: absolute;
+    bottom: 107px;
+    left: 49px;
+}
+
+#h3_4 {
+    color: white;
+    position: absolute;
+    bottom: 107px;
+    right: 174px;
+}
+
+#h3_5 {
+    color: white;
+    position: absolute;
+    bottom: 46px;
+    right: 271px;
+}
+
 /*--------------------------About Section End-----------------------------*/
 /*--------------------------Responsive-----------------------------*/
 @media all and (max-width: 425px) {
