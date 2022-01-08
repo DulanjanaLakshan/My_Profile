@@ -11,6 +11,7 @@ body {
 
 /*-----header css Start-------*/
 header {
+    z-index: 1;
     position: fixed;
     height: 60px;
     width: 100%;
@@ -33,9 +34,17 @@ header > nav > ul > li {
 
 header > nav > ul > li > a {
     text-decoration: none;
+    font-weight: bold;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     text-shadow: 1px 2px 5px black;
+    transition: 0.5s;
+}
+
+header > nav > ul > li > a:hover {
+    color: red;
+    font-weight: bold;
+    transition: 1s;
 }
 
 #brand {
@@ -60,7 +69,7 @@ header > nav > ul > li > a {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.84);
+    background-color: rgb(0, 0, 0);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -169,13 +178,22 @@ header > nav > ul > li > a {
 }
 
 #ser_h1 {
-    color: white;
     position: absolute;
-    top: 16px;
-    left: 768px;
+    color: white;
+    left: 90px;
+    top: 25px;
     margin: auto;
-    font-family: 'Ultra', serif;
-    font-size: 50px;
+    font-size: 40px;
+    border-bottom: 3px solid red;
+}
+
+@keyframes ser_h1 {
+    from {
+        border-bottom: 0px;
+    }
+    to {
+        border-bottom: 6px solid red;
+    }
 }
 
 .ser_section {
@@ -251,6 +269,76 @@ header > nav > ul > li > a {
 }
 
 /*--------------------------services End-----------------------------*/
+/*--------------------------About Section-----------------------------*/
+#about_section {
+    position: relative;
+    height: 950px;
+    display: flex;
+}
+
+#about_section > div {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 853px;
+    height: 60%;
+}
+
+.block {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 536px;
+    height: 536px;
+    background: black;
+}
+
+.block:before, .block:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094,
+    #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.block:after {
+    filter: blur(10px);
+}
+#about_image{
+    width: 535px;
+}
+#about_h1{
+    position: absolute;
+    color: white;
+    left: 90px;
+    top: 25px;
+    margin: auto;
+    font-size: 40px;
+    border-bottom: 3px solid red;
+}
+/*--------------------------About Section End-----------------------------*/
 /*--------------------------Responsive-----------------------------*/
 @media all and (max-width: 425px) {
     #menu_mobile {
@@ -453,11 +541,13 @@ header > nav > ul > li > a {
         padding-left: 48px;
     }
 }
+
 @media all and (min-width: 425px) and (max-width: 768px) {
     #ser_h1 {
         left: 143px;
     }
 }
+
 @media all and (min-width: 768px) and (max-width: 1024px) {
     #background_section {
         height: 750px;
