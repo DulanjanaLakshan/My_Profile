@@ -1,4 +1,4 @@
-### Hi there, I'm Dulanjana Lakshan [Dulanjana][website] 😎
+### Hi there, I'm Dulanjana Lakshan 😎
 <img src="https://readme-typing-svg.herokuapp.com?size=25&vCenter=true&width=550&lines=Hi+%F0%9F%91%8B%2C+I'm+Dulanjana+Lakshan.;This+is+My+Profile+Website.😊;">
 
 -  [My Website URL][website]

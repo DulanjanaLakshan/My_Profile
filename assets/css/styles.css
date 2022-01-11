@@ -334,7 +334,7 @@ header > nav > ul > li > a:hover {
 #about_h1 {
     position: absolute;
     color: white;
-    left:329px;
+    left: 329px;
     top: 25px;
     margin: auto;
     font-size: 40px;
@@ -425,10 +425,9 @@ header > nav > ul > li > a:hover {
 
     #background_section {
         width: 100%;
-        background-position: 702px;
-        height: 749px;
+        background-position: 724px;
+        height: 810px;
     }
-
     #name1 {
         top: 335px;
         left: 11px;
@@ -508,6 +507,64 @@ header > nav > ul > li > a:hover {
     #h1_6 {
         padding-left: 7px;
         padding-top: 45px;
+    }
+    #about_section {
+        height: 1100px;
+        flex-direction: column;
+    }
+    #about_image {
+        width: 282px;
+    }
+    .block {
+        width: 282px;
+        height: 285px;
+        left: 69px;
+        top: 141px;
+        margin: 0;
+    }
+    #about_h1 {
+        left: 112px;
+        top: -521px;
+    }
+    #about_details {
+        height: 590px;
+        width: 100%;
+        top: -88px;
+    }
+    #about_h2 {
+        top: 16px;
+        font-size: 25px;
+    }
+    #about_p {
+        top: 77px;
+        font-size: 22px;
+    }
+    #h3_1 {
+        bottom: 305px;
+        left: 14px;
+    }
+    #h3_2 {
+        bottom: 250px;
+        left: 15px;
+    }
+    #h3_3 {
+        bottom: 191px;
+        left: 13px;
+    }
+    #h3_4 {
+        bottom: 135px;
+        left: 13px;
+    }
+    #h3_5 {
+        bottom: 65px;
+        left: 13px;
+    }
+    #ser_h1 {
+        left: 94px;
+        top: -50px;
+    }
+    #about_section > div {
+        width: 398px;
     }
 }
 
@@ -606,14 +663,63 @@ header > nav > ul > li > a:hover {
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
+    #background_section {
+        height: 810px;
+    }
+
     #ser_h1 {
-        left: 143px;
+        left: 261px;
+        top: 4px;
+    }
+
+    #about_section > div {
+        width: 724px;
+    }
+
+    #about_section {
+        height: 1120px;
+        flex-direction: column;
+    }
+
+    #about_h1 {
+        left: 290px;
+        top: -524px;
+    }
+
+    #about_details {
+        height: 448px;
+        top: 146px;
+    }
+
+    .block {
+        left: 0;
+        top: 279px;
+    }
+
+    #h3_1 {
+        left: 10px;
+    }
+
+    #h3_2 {
+        right: 10px;
+    }
+
+    #h3_3 {
+        left: 10px;
+    }
+
+    #h3_4 {
+        right: 10px;
+    }
+
+    #h3_5 {
+        left: 10px;
     }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     #background_section {
-        height: 750px;
+        height: 810px;
         width: 100%;
     }
 
@@ -693,6 +799,46 @@ header > nav > ul > li > a:hover {
         padding-left: 37px;
         padding-top: 45px;
     }
+
+    #about_section {
+        height: 1120px;
+        flex-direction: column;
+    }
+
+    #about_h1 {
+        left: 343px;
+        top: -501px;
+    }
+
+    #about_details {
+        height: 448px;
+        top: 146px;
+    }
+
+    .block {
+        left: 0;
+        top: 279px;
+    }
+
+    #h3_1 {
+        left: 0px;
+    }
+
+    #h3_2 {
+        right: 0px;
+    }
+
+    #h3_3 {
+        left: 0;
+    }
+
+    #h3_4 {
+        right: 0px;
+    }
+
+    #h3_5 {
+        left: 0;
+    }
 }
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
@@ -763,8 +909,47 @@ header > nav > ul > li > a:hover {
     #h1_6 {
         padding-left: 52px;
     }
+
     #about_h1 {
         left: 491px;
         top: -89px;
+    }
+
+    .block {
+        left: 30px;
+    }
+
+    #about_h1 {
+        left: 115px;
+        top: 23px;
+    }
+
+    #about_section > div {
+        width: 623px;
+    }
+
+    #about_details {
+        width: 117%;
+        left: -61px;
+    }
+
+    #h3_1 {
+        left: 0px;
+    }
+
+    #h3_2 {
+        right: 108px;
+    }
+
+    #h3_3 {
+        left: 0;
+    }
+
+    #h3_4 {
+        right: 104px;
+    }
+
+    #h3_5 {
+        left: 0;
     }
 }
