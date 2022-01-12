@@ -402,6 +402,37 @@ header > nav > ul > li > a:hover {
 }
 
 /*--------------------------About Section End-----------------------------*/
+/*--------------------------gallery section start-----------------------------*/
+#gallery_section{
+    position: relative;
+    height: 600px;
+}
+#gallery_h1{
+    position: absolute;
+    color: white;
+    left: 90px;
+    top: 25px;
+    margin: auto;
+    font-size: 40px;
+    border-bottom: 3px solid red;
+}
+.cell {
+    width: 33%;
+    height: 350px;
+    margin: 0 15px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+}
+.main-carousel {
+    top: 145px;
+}
+.cell>img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+/*--------------------------gallery section end-----------------------------*/
 /*--------------------------Responsive-----------------------------*/
 @media all and (max-width: 425px) {
     #menu_mobile {

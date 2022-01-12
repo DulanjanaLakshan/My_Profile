@@ -29,6 +29,8 @@ passionate and dedicated to my work." name="description">
     <link href="assets/icon/D_icon.png" rel="icon">
     <link href="assets/css/normalize.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="https://unpkg.com/flickity@2/dist/flickity.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -39,7 +41,7 @@ passionate and dedicated to my work." name="description">
             <li><a href="#background_section">Home</a></li>
             <li><a href="#about_section">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="#gallery_section">Gallery</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
@@ -47,7 +49,7 @@ passionate and dedicated to my work." name="description">
         <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
         <li><a href="#background_section">Home</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#">Gallery</a></li>
+        <li><a href="#gallery_section">Gallery</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
     </div>
@@ -136,7 +138,20 @@ passionate and dedicated to my work." name="description">
             </div>
         </section>
     </section>
-
+    <section id="gallery_section">
+        <h1 id="gallery_h1">Gallery</h1>
+        <div class="main-carousel">
+            <div class="cell"><img src="assets/image/img 1.jpg" alt="this image not working"></div>
+            <div class="cell"><img src="assets/image/img 2.jpg" alt="this image not working"></div>
+            <div class="cell"><img src="assets/image/img 3.jpg" alt="this image not working"></div>
+            <div class="cell"><img src="assets/image/img 4.jpg" alt="this image not working"></div>
+            <div class="cell"><img src="assets/image/img 5.jpg" alt="this image not working"></div>
+        </div>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script type="">
+            $('.main-carousel').flickity({ cellAlign: 'left',wrapAround:true, freeScroll: true });
+        </script>
+    </section>
 </main>
 <footer></footer>
 </body>
