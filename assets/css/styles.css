@@ -289,7 +289,7 @@ header > nav > ul > li > a:hover {
 
 .block {
     position: absolute;
-    right: 0;
+    right: 115px;
     bottom: 0;
     margin: auto;
     width: 536px;
